@@ -1,0 +1,9 @@
+{
+	"mapFolder": "footman_frenzy.w3x",
+	"mapName": "Footman Frenzy",
+	"mapVersion": "0.01",
+	"minifyScript": false,
+	"gameExecutable": "D:\\Blizzard\\Warcraft III\\_retail_\\x86_64\\Warcraft III.exe",
+	"outputFolder": "C:\\Users\\Daniel\\Documents\\Warcraft III\\Maps\\Download\\(0) testing",
+	"launchArgs": ["-launch", "-windowmode", "windowed"]
+}
