@@ -5,6 +5,9 @@ import { ChatManager } from './app/commands/chat-manager';
 import { Quests } from './app/libs/quests';
 import { NameManager } from './app/names/name-manager';
 import { AntiCheat } from './app/libs/anti-cheat';
+import { SetCommands } from './app/commands/commands';
+import { MAP_NAME } from './app/utils/map-info';
+import { TimedEventManager } from './app/timer/timed-event-manager';
 
 function tsMain() {
 	try {
@@ -20,22 +23,21 @@ function tsMain() {
 			SetMapFlag(MAP_LOCK_SPEED, true);
 			SetMapFlag(MAP_USE_HANDICAPS, false);
 			SetMapFlag(MAP_LOCK_ALLIANCE_CHANGES, true);
-
 			// SetTimeOfDay(12.0);
 			// SetTimeOfDayScale(0.0);
-
 			FogEnable(true);
 			FogMaskEnable(true);
+			print('Please wait while the game initializes');
+
 			//Create Quests
 			Quests.SetCredits();
 
 			AntiCheat.run(() => {
 				NameManager.getInstance();
 				CameraManager.getInstance();
-				ChatManager.getInstance();
-				//TimedEventManager.getInstance();
-
+				TimedEventManager.getInstance();
 				SetCommands();
+
 				//Run last
 				GameStateManager.getInstance().startGame();
 			});
@@ -46,6 +48,6 @@ function tsMain() {
 }
 
 addScriptHook(W3TS_HOOK.MAIN_AFTER, tsMain);
-function SetCommands() {
-	throw new Error('Function not implemented.');
-}
+addScriptHook(W3TS_HOOK.CONFIG_AFTER, () => {
+	SetMapName(MAP_NAME);
+});
