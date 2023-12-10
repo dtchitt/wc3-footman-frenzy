@@ -1,8 +1,19 @@
 import { CameraManager } from '../camera/camera-manager';
 import { ChatManager } from './chat-manager';
 
-export function SetCommnads(chatManager: ChatManager) {
+export function SetCommands() {
+	const chatManager: ChatManager = ChatManager.getInstance();
+
 	CamCommand(chatManager);
+	HelpCommand(chatManager);
+	TutorialCommand(chatManager);
+	InfoCommand(chatManager);
+	TimeCommand(chatManager);
+	ForfeitCommand(chatManager);
+	SwapCommand(chatManager);
+	RepickCommand(chatManager);
+	PlayersCommand(chatManager);
+	PoolCommand(chatManager);
 }
 
 function CamCommand(chatManager: ChatManager) {
