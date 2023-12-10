@@ -1,6 +1,7 @@
 import { File } from 'w3ts';
 import { CamData } from './cam-data';
 import { CamSettings } from './cam-settings';
+import { ALL_PLAYER_SLOTS } from '../utils/utility';
 
 export class CameraManager {
 	private static instance: CameraManager;
@@ -9,7 +10,7 @@ export class CameraManager {
 	private camData: Map<player, CamData> = new Map<player, CamData>();
 
 	private constructor() {
-		for (let i = 0; i < bj_MAX_PLAYERS; i++) {
+		for (let i = 0; i < ALL_PLAYER_SLOTS; i++) {
 			const player: player = Player(i);
 
 			if (GetPlayerSlotState(player) != PLAYER_SLOT_STATE_EMPTY && GetPlayerController(player) == MAP_CONTROL_USER) {
@@ -81,9 +82,9 @@ export class CameraManager {
 		const camTimer: timer = CreateTimer();
 
 		TimerStart(camTimer, 0.5, true, () => {
-			for (let i = 0; i < bj_MAX_PLAYERS; i++) {
-				if (this.camData.has(Player(i))) this.setCameraFields(Player(i), this.camData.get(Player(i)));
-			}
+			this.camData.forEach((data, player) => {
+				if (this.camData.has(player)) this.setCameraFields(player, this.camData.get(player));
+			});
 		});
 	}
 
