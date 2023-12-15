@@ -27,10 +27,11 @@ function tsMain() {
 			// SetTimeOfDayScale(0.0);
 			FogEnable(true);
 			FogMaskEnable(true);
-			print('Please wait while the game initializes');
 
 			//Create Quests
 			Quests.SetCredits();
+
+			print('Please wait while the game initializes.');
 
 			AntiCheat.run(() => {
 				NameManager.getInstance();
