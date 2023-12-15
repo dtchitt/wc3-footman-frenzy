@@ -9,7 +9,7 @@ export enum CamSettings {
 
 	MIN_ANGLE = 270.0,
 	MAX_ANGLE = 350.0,
-	DEFAULT_ANGLE = 290.0,
+	DEFAULT_ANGLE = 304.0,
 
 	MIN_ROTATION = 0.0,
 	MAX_ROTATION = 360.0,
