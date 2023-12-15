@@ -26,11 +26,11 @@ export class InitializationState implements TransitionableGameState {
 		//Set research levelof tower upgrade to level 1
 		//Track players 13-24
 		//Move camera to hero taverns
-		//Anti Maphack stuff - prolly wont bother
+		//Anti Maphack stuff - prolly wont bother, can be done in a more simple and effective way
 		//Hex Color vars, doulbe check against what i have
-		//Minimap correct??!??!?!? - Move camera bounds to cut off extra
+		//Minimap correct??!??!?!? - Move camera bounds to cut off extra terrain
 
-		//VERSION check trigger??
+		//VERSION check trigger?? Basically this seems to be for tournaments and wc3 autohosting
 		//
 
 		this.end();
