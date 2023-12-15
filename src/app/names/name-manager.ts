@@ -1,4 +1,4 @@
-import { PLAYER_COLOR_CODES_MAP, PLAYER_COLOR_MAP } from '../utils/player-colors';
+import { PLAYER_COLOR_CODES_MAP } from '../utils/player-colors';
 import { IsNonEmptySubstring, PLAYERS_ALLOWED } from '../utils/utility';
 import { Names } from './name-types';
 import { PlayerName } from './player-name';

@@ -8,7 +8,10 @@ export class PlayerName {
 	constructor(player: player) {
 		this.btag = GetPlayerName(player);
 		this.acct = this.btag.split('#')[0];
-		this.setColor(player);
+
+		const colorName: string = PLAYER_COLOR_MAP.get(GetPlayerColor(player));
+
+		this.color = colorName;
 	}
 
 	/**
@@ -30,10 +33,5 @@ export class PlayerName {
 	 */
 	public getColor() {
 		return this.color;
-	}
-
-	private setColor(player: player) {
-		const colorName: string = PLAYER_COLOR_MAP.get(GetPlayerColor(player));
-		this.color = colorName;
 	}
 }
