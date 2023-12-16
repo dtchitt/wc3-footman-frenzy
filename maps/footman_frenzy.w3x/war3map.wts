@@ -6,7 +6,7 @@ V
 
 STRING 1
 {
-|cffffcc00Reforged|r Footmen 7.8.2T
+|cff00ff00Footmen Frenzy
 }
 
 STRING 2
@@ -535,7 +535,7 @@ Rain of Fire - [|cffffcc00Level 6|r]
 }
 
 STRING 87
-// Units: h00D (Night Elf Tier 2), Hotkey (Hotkey)
+// Units: h004 (Random Hero), Hotkey (Hotkey)
 {
 V
 }
@@ -691,7 +691,7 @@ Force of Nature - [|cffffcc00Level 5|r]
 }
 
 STRING 113
-// Units: h00G (Human Tier 2), Hotkey (Hotkey)
+// Units: h001 (Footmen Frenzy Reforged), Hotkey (Hotkey)
 {
 Z
 }
@@ -763,7 +763,7 @@ Forked Lightning - [|cffffcc00Level 6|r]
 }
 
 STRING 125
-// Units: h00O (Human Tier 5), Hotkey (Hotkey)
+// Units: h000 (Tier Zero), Hotkey (Hotkey)
 {
 Z
 }
@@ -925,7 +925,7 @@ STRING 151
 }
 
 STRING 152
-// Units: h00V (Human Tier 3), Hotkey (Hotkey)
+// Units: h01V (Range - Tier 1), Hotkey (Hotkey)
 {
 Z
 }
@@ -979,7 +979,7 @@ Raises <AUan,DataA1> dead units in an area to fight for the Death Knight for <AU
 }
 
 STRING 161
-// Units: h00J (Night Elf Tier 3), Hotkey (Hotkey)
+// Units: h00F (Random Hero), Hotkey (Hotkey)
 {
 V
 }
@@ -1057,7 +1057,7 @@ Frost Arrows - [|cffffcc00Level 4|r]
 }
 
 STRING 174
-// Units: h00W (Human Tier 1), Hotkey (Hotkey)
+// Units: h01Y (Melee - Tier 4), Hotkey (Hotkey)
 {
 Z
 }
@@ -1111,7 +1111,7 @@ Adds <ANfa,DataA1> bonus damage to the hero's attacks, and slows enemy movement 
 }
 
 STRING 183
-// Units: h004 (Random Hero), Hotkey (Hotkey)
+// Units: h02U (Next Page), Hotkey (Hotkey)
 {
 V
 }
@@ -1189,7 +1189,7 @@ STRING 195
 }
 
 STRING 196
-// Units: h000 (Peasant), Hotkey (Hotkey)
+// Units: h01Z (Range - Tier 3), Hotkey (Hotkey)
 {
 Z
 }
@@ -1279,7 +1279,7 @@ Charm - [|cffffcc00Level 3|r]
 }
 
 STRING 211
-// Units: h00C (Orc Tier 2), Hotkey (Hotkey)
+// Units: n006 (Pocky the Rat), Hotkey (Hotkey)
 {
 X
 }
@@ -1369,7 +1369,7 @@ W
 }
 
 STRING 226
-// Units: h00H (Orc Tier 1), Hotkey (Hotkey)
+// Units: h01W (Melee - Tier 1), Hotkey (Hotkey)
 {
 X
 }
@@ -1471,7 +1471,7 @@ Howl of Terror - [|cffffcc00Level 6|r]
 }
 
 STRING 243
-// Units: h013 (Human Tier 4), Hotkey (Hotkey)
+// Units: h020 (Support - Tier 2), Hotkey (Hotkey)
 {
 Z
 }
@@ -1519,7 +1519,7 @@ Reduces the attack damage of nearby enemies by <ANht,DataA2,%>% and reduces thei
 }
 
 STRING 251
-// Units: h00L (Night Elf Tier 4), Hotkey (Hotkey)
+// Units: z401 (Night Elf Tier 2), Hotkey (Hotkey)
 {
 V
 }
@@ -1585,7 +1585,7 @@ Basic attacks also deal <ANca,DataA3,%>% of the damage dealt to other enemies wi
 }
 
 STRING 262
-// Units: h002 (Night Elf Tier 1), Hotkey (Hotkey)
+// Units: z402 (Night Elf Tier 3), Hotkey (Hotkey)
 {
 V
 }
@@ -1663,7 +1663,7 @@ Doom - [|cffffcc00Level 1|r]
 }
 
 STRING 275
-// Units: n006 (Pocky the Rat), Hotkey (Hotkey)
+// Units: o00Y (Force Field), Hotkey (Hotkey)
 {
 X
 }
@@ -1681,13 +1681,15 @@ Chaotic Frost - [|cffffcc00Level 4|r]
 }
 
 STRING 278
+// Units: hwtw (Scout Tower), Tip (Tooltip - Basic)
 {
-Observer 7
+Downgrade to Scout Tower
 }
 
 STRING 279
+// Units: hwtw (Scout Tower), Ubertip (Tooltip - Extended)
 {
-Observer 8
+Basic observation tower. Has no attack, but can be upgraded into a Frost Tower or Cannon Tower. Can also be speed-upgraded, but results in shoddy construction.
 }
 
 STRING 280
@@ -1913,7 +1915,7 @@ While channeling, nearby friendly units are healed for <A009,DataA6> health per 
 }
 
 STRING 317
-// Units: h01V (Range - Tier 1), Hotkey (Hotkey)
+// Units: h022 (Support - Tier 3), Hotkey (Hotkey)
 {
 Z
 }
@@ -2052,7 +2054,7 @@ Passively increases movement speed and basic attack damage.|n|n|cff808080Level 1
 }
 
 STRING 339
-// Units: h01Y (Melee - Tier 4), Hotkey (Hotkey)
+// Units: h023 (Melee - Tier 2), Hotkey (Hotkey)
 {
 Z
 }
@@ -2190,13 +2192,13 @@ While channeling this spell, all allied units within <A00A,Area1> range except t
 }
 
 STRING 362
-// Units: h00M (Orc Tier 4), Hotkey (Hotkey)
+// Units: z200 (Orc Tier 1), Hotkey (Hotkey)
 {
 X
 }
 
 STRING 363
-// Units: h003 (Orc Tier 3), Hotkey (Hotkey)
+// Units: z201 (Orc Tier 2), Hotkey (Hotkey)
 {
 X
 }
@@ -2268,7 +2270,7 @@ Summons 4 copies of a unit. Cannot be used on creeps. |nLasts 80 seconds.
 }
 
 STRING 375
-// Units: h01Z (Range - Tier 3), Hotkey (Hotkey)
+// Units: h024 (Melee - Tier 3), Hotkey (Hotkey)
 {
 Z
 }
@@ -2316,7 +2318,7 @@ Pocket Factory - [|cffffcc00Level 6|r]
 }
 
 STRING 383
-// Units: h00X (Night Elf Tier 5), Hotkey (Hotkey)
+// Units: z403 (Night Elf Tier 4), Hotkey (Hotkey)
 {
 V
 }
@@ -2474,7 +2476,7 @@ Increases attack speed by <ANcr,DataF4,%>% and grants 50% movement speed for <AN
 }
 
 STRING 407
-// Units: h011 (Orc Tier 5), Hotkey (Hotkey)
+// Units: z202 (Orc Tier 3), Hotkey (Hotkey)
 {
 X
 }
@@ -2486,7 +2488,7 @@ W
 }
 
 STRING 409
-// Units: h01W (Melee - Tier 1), Hotkey (Hotkey)
+// Units: z203 (Orc Tier 4), Hotkey (Hotkey)
 {
 X
 }
@@ -2552,7 +2554,7 @@ Increases attack speed by <ANcr,DataF1,%>% and grants 50% movement speed for <AN
 }
 
 STRING 420
-// Units: h00I (Undead Tier 3), Hotkey (Hotkey)
+// Units: E00E (Falcon), Hotkey (Hotkey)
 {
 C
 }
@@ -2618,7 +2620,7 @@ Sprays <ANhs,DataF6> waves of healing mist that heal units in a target area for 
 }
 
 STRING 431
-// Units: h00F (Random Hero), Hotkey (Hotkey)
+// Units: z404 (Night Elf Tier 5), Hotkey (Hotkey)
 {
 V
 }
@@ -2720,7 +2722,7 @@ Adds <ANic,DataA2> damage to the hero's attacks for each time the hero attacked 
 }
 
 STRING 448
-// Units: h02U (Next Page), Hotkey (Hotkey)
+// Units: z400 (Night Elf Tier 1), Hotkey (Hotkey)
 {
 V
 }
@@ -2955,7 +2957,7 @@ Slams the ground, dealing damage to and slowing the movement speed and attack sp
 }
 
 STRING 487
-// Units: o00Y (Force Field), Hotkey (Hotkey)
+// Units: z204 (Orc Tier 5), Hotkey (Hotkey)
 {
 X
 }
@@ -3133,7 +3135,7 @@ STRING 515
 }
 
 STRING 516
-// Units: h020 (Support - Tier 2), Hotkey (Hotkey)
+// Units: h025 (Melee - Tier 5), Hotkey (Hotkey)
 {
 Z
 }
@@ -3233,7 +3235,7 @@ Huk! - [|cffffcc00Level 1|r]
 }
 
 STRING 531
-// Units: h00N (Undead Tier 4), Hotkey (Hotkey)
+// Units: N01C (Alchemist), Hotkey (Hotkey)
 {
 C
 }
@@ -3578,8 +3580,9 @@ Master Pho
 }
 
 STRING 588
+// Units: hbar (Tier Zero), Name (Name)
 {
-Observer 9
+Tier Zero
 }
 
 STRING 589
@@ -3607,7 +3610,7 @@ Learn Dark Flame - [|cffffcc00Level %d|r]
 }
 
 STRING 593
-// Units: h022 (Support - Tier 3), Hotkey (Hotkey)
+// Units: h026 (Range - Tier 4), Hotkey (Hotkey)
 {
 Z
 }
@@ -3703,7 +3706,7 @@ Creates 3 Orbs at a target point.|nThe Orbs explode after a short duration and d
 }
 
 STRING 608
-// Units: E00E (Falcon), Hotkey (Hotkey)
+// Units: h01X (Support - Tier 1), Hotkey (Hotkey)
 {
 C
 }
@@ -3841,7 +3844,7 @@ Summons <ANsg,DataA2> bears with 28-30 attack, Bash and Cleaving Attack.|nLasts 
 }
 
 STRING 630
-// Units: h023 (Melee - Tier 2), Hotkey (Hotkey)
+// Units: h027 (Range - Tier 2), Hotkey (Hotkey)
 {
 Z
 }
@@ -4314,10 +4317,26 @@ Ward duration 15s.
 |cff808080Level 6 - |r|cffffff00AoE|r <A0F0,Area6> | |cffffff00Slow|r <A0F0,DataA6,%>% | |cffffff00DMG|r <A0F1,DataA6> HP/s
 }
 
+STRING 708
+// Units: z001 (Scout Tower), Tip (Tooltip - Basic)
+{
+Downgrade to Scout Tower
+}
+
 STRING 709
 // Units: h00Y (Summoner Stone), Ubertip (Tooltip - Extended)
 {
 Defensive structure that can summon various units.
+}
+
+STRING 710
+{
+|cffd45e19Footmen Frenzy
+}
+
+STRING 711
+{
+|cffff0000Footmen Frenzy
 }
 
 STRING 712
@@ -4339,9 +4358,14 @@ Frost Stomp
 }
 
 STRING 715
-// Units: h024 (Melee - Tier 3), Hotkey (Hotkey)
+// Units: h028 (Range - Tier 5), Hotkey (Hotkey)
 {
 Z
+}
+
+STRING 716
+{
+Player 1
 }
 
 STRING 717
@@ -4363,7 +4387,7 @@ Gives a 35% chance that an attack will do 25 bonus damage and stun an opponent f
 }
 
 STRING 720
-// Units: h025 (Melee - Tier 5), Hotkey (Hotkey)
+// Units: z100 (Human Tier 1), Hotkey (Hotkey)
 {
 Z
 }
@@ -4717,7 +4741,7 @@ Turns a non-mechanical unit Ethereal. Ethereal units cannot attack or be attacke
 }
 
 STRING 778
-// Units: h026 (Range - Tier 4), Hotkey (Hotkey)
+// Units: z101 (Human Tier 2), Hotkey (Hotkey)
 {
 Z
 }
@@ -4735,7 +4759,7 @@ Demolish
 }
 
 STRING 781
-// Units: h00Z (Undead Tier 1), Hotkey (Hotkey)
+// Units: H02G (Pirate), Hotkey (Hotkey)
 {
 C
 }
@@ -4753,13 +4777,13 @@ STRING 783
 }
 
 STRING 784
-// Units: h027 (Range - Tier 2), Hotkey (Hotkey)
+// Units: z102 (Human Tier 3), Hotkey (Hotkey)
 {
 Z
 }
 
 STRING 785
-// Units: h028 (Range - Tier 5), Hotkey (Hotkey)
+// Units: z103 (Human Tier 4), Hotkey (Hotkey)
 {
 Z
 }
@@ -4795,7 +4819,7 @@ Summons 2 Hawks with True Sight, Invisibility, and 53-62 attack that splashes in
 }
 
 STRING 791
-// Items: dust (Dust of Appearance), Hotkey (Hotkey)
+// Units: z105 (Human Tier 5), Hotkey (Hotkey)
 {
 Z
 }
@@ -4825,13 +4849,13 @@ Evasion
 }
 
 STRING 796
-// Items: nspi (Necklace of Spell Immunity), Hotkey (Hotkey)
+// Items: dust (Dust of Appearance), Hotkey (Hotkey)
 {
 Z
 }
 
 STRING 797
-// Items: evtl (Talisman of Evasion), Hotkey (Hotkey)
+// Items: nspi (Necklace of Spell Immunity), Hotkey (Hotkey)
 {
 Z
 }
@@ -4879,9 +4903,14 @@ Creates a barrier that stops 1000 points of spell damage from affecting a target
 }
 
 STRING 805
-// Items: tmmt (Totem of Might), Hotkey (Hotkey)
+// Items: evtl (Talisman of Evasion), Hotkey (Hotkey)
 {
 Z
+}
+
+STRING 806
+{
+Player 2
 }
 
 STRING 807
@@ -4891,7 +4920,7 @@ Hurls a fiery bolt that stuns a target enemy unit for 2 seconds, doing 100 damag
 }
 
 STRING 808
-// Units: h00B (Undead Tier 2), Hotkey (Hotkey)
+// Units: H02J (Pander Prospero), Hotkey (Hotkey)
 {
 C
 }
@@ -4945,7 +4974,7 @@ Summons 2 Hawks with True Sight and 26-30 attack.|NLasts 50 seconds.
 }
 
 STRING 817
-// Items: I006 (Cursed Axe of Slaying), Hotkey (Hotkey)
+// Items: tmmt (Totem of Might), Hotkey (Hotkey)
 {
 Z
 }
@@ -4969,7 +4998,7 @@ Teleports the peasant a short distance, allowing it to move in and out of danger
 }
 
 STRING 821
-// Items: I00G (Tank Token), Hotkey (Hotkey)
+// Items: I006 (Cursed Axe of Slaying), Hotkey (Hotkey)
 {
 Z
 }
@@ -5011,7 +5040,7 @@ X
 }
 
 STRING 828
-// Items: I00S (Staff of Sanctuary Recipe), Hotkey (Hotkey)
+// Items: I00G (Tank Token), Hotkey (Hotkey)
 {
 Z
 }
@@ -5023,7 +5052,7 @@ STRING 829
 }
 
 STRING 830
-// Items: I02G (Hydra Dust), Hotkey (Hotkey)
+// Items: I00S (Staff of Sanctuary Recipe), Hotkey (Hotkey)
 {
 Z
 }
@@ -5041,7 +5070,7 @@ A magical boulder that is thrown at an enemy unit, causing 75 points of damage a
 }
 
 STRING 833
-// Items: I02N (miRaculix' Amulet of Clarity), Hotkey (Hotkey)
+// Items: I02G (Hydra Dust), Hotkey (Hotkey)
 {
 Z
 }
@@ -5089,7 +5118,7 @@ Calls exploding thunder lizards while chanelling for up to 30 seconds. The lizar
 }
 
 STRING 841
-// Abilities: AHhb (Holy Light), Hotkey (Hotkey - Normal)
+// Items: I02N (miRaculix' Amulet of Clarity), Hotkey (Hotkey)
 {
 Z
 }
@@ -5137,7 +5166,7 @@ Teleports a short distance, allowing this unit to move in and out of combat.
 }
 
 STRING 849
-// Abilities: AHfs (Flame Strike), Hotkey (Hotkey - Normal)
+// Abilities: AHhb (Holy Light), Hotkey (Hotkey - Normal)
 {
 Z
 }
@@ -5149,7 +5178,7 @@ STRING 850
 }
 
 STRING 851
-// Abilities: AEst (Scout), Hotkey (Hotkey - Normal)
+// Abilities: AHfs (Flame Strike), Hotkey (Hotkey - Normal)
 {
 Z
 }
@@ -5173,13 +5202,13 @@ Summons an invisible, immobile Stasis Trap.|nThe trap triggers itself and other 
 }
 
 STRING 855
-// Abilities: ANrf (Rain of Fire), Hotkey (Hotkey - Normal)
+// Abilities: AEst (Scout), Hotkey (Hotkey - Normal)
 {
 Z
 }
 
 STRING 856
-// Units: n00A (Zeppelin), EditorSuffix (Name - Editor Suffix)
+// Units: h000 (Tier Zero), EditorSuffix (Name - Editor Suffix)
 {
 (Creep Shop #1)
 }
@@ -5191,7 +5220,7 @@ Summons an invisible, immobile Stasis Trap.|nThe trap triggers itself and other 
 }
 
 STRING 858
-// Abilities: ANfl (Forked Lightning), Hotkey (Hotkey - Normal)
+// Abilities: ANrf (Rain of Fire), Hotkey (Hotkey - Normal)
 {
 Z
 }
@@ -5353,13 +5382,13 @@ Creates a shield of frost around a target friendly unit. The shield adds <AUfu,D
 }
 
 STRING 885
-// Abilities: AHtb (Storm Bolt), Hotkey (Hotkey - Normal)
+// Abilities: ANfl (Forked Lightning), Hotkey (Hotkey - Normal)
 {
 Z
 }
 
 STRING 886
-// Abilities: AHbz (Blizzard), Hotkey (Hotkey - Normal)
+// Abilities: AHtb (Storm Bolt), Hotkey (Hotkey - Normal)
 {
 Z
 }
@@ -5377,7 +5406,7 @@ Causes this unit to shift out of existence whenever it takes damage, temporarily
 }
 
 STRING 889
-// Abilities: AOcl (Chain Lightning), Hotkey (Hotkey - Normal)
+// Abilities: AHbz (Blizzard), Hotkey (Hotkey - Normal)
 {
 Z
 }
@@ -5419,7 +5448,7 @@ Gives a <A06Z,DataA1,%>% percent chance to avoid an attack.
 }
 
 STRING 896
-// Abilities: AOhw (Healing Wave), Hotkey (Hotkey - Normal)
+// Abilities: AOcl (Chain Lightning), Hotkey (Hotkey - Normal)
 {
 Z
 }
@@ -5445,7 +5474,7 @@ Song of Power
 }
 
 STRING 900
-// Abilities: AOsh (Shockwave), Hotkey (Hotkey - Normal)
+// Abilities: AOhw (Healing Wave), Hotkey (Hotkey - Normal)
 {
 Z
 }
@@ -5516,6 +5545,11 @@ STRING 911
 |cffffcc00V|r Camato Yannon - [|cffffcc00Level 3|r]
 }
 
+STRING 912
+{
+Player 3
+}
+
 STRING 913
 // Abilities: A01Z (Kill Hero), Ubertip (Tooltip - Normal - Extended)
 {
@@ -5550,6 +5584,11 @@ STRING 918
 // Abilities: Aetf (Ethereal Form), Ubertip (Tooltip - Normal - Extended)
 {
 Makes Halpmeh ethereal, making him immune to physical damage but unable to attack. He can cast spells and will take extra damage from Magic attacks and spells.
+}
+
+STRING 919
+{
+Player 4
 }
 
 STRING 920
@@ -5601,7 +5640,7 @@ Avalanche charges forward in the direction he's facing, releasing 5 pulses over 
 }
 
 STRING 928
-// Abilities: AOwk (Wind Walk), Hotkey (Hotkey - Normal)
+// Abilities: AOsh (Shockwave), Hotkey (Hotkey - Normal)
 {
 Z
 }
@@ -5621,7 +5660,7 @@ STRING 930
 }
 
 STRING 931
-// Abilities: AUcs (Carrion Swarm), Hotkey (Hotkey - Normal)
+// Abilities: AOwk (Wind Walk), Hotkey (Hotkey - Normal)
 {
 Z
 }
@@ -5819,7 +5858,7 @@ Splits the Pandaren Brewmaster into elements, forming 3 Earth Warriors.|nIf any 
 }
 
 STRING 962
-// Units: N01C (Alchemist), Hotkey (Hotkey)
+// Units: h02V (Previous Page), Hotkey (Hotkey)
 {
 C
 }
@@ -5909,7 +5948,7 @@ STRING 976
 }
 
 STRING 977
-// Abilities: AUdc (Death Coil), Hotkey (Hotkey - Normal)
+// Abilities: AUcs (Carrion Swarm), Hotkey (Hotkey - Normal)
 {
 Z
 }
@@ -6095,7 +6134,7 @@ Tosses a target enemy unit into the air, rendering it unable to move, attack or 
 }
 
 STRING 1006
-// Abilities: AUim (Impale), Hotkey (Hotkey - Normal)
+// Abilities: AUdc (Death Coil), Hotkey (Hotkey - Normal)
 {
 Z
 }
@@ -6282,13 +6321,13 @@ Summon Lava Spawn - [|cffffcc00Level 5|r]
 }
 
 STRING 1036
-// Units: h012 (Undead Tier 5), Hotkey (Hotkey)
+// Units: H015 (Corruptor), Hotkey (Hotkey)
 {
 C
 }
 
 STRING 1037
-// Units: h01X (Support - Tier 1), Hotkey (Hotkey)
+// Units: z302 (Undead Tier 3), Hotkey (Hotkey)
 {
 C
 }
@@ -6300,13 +6339,13 @@ Summon Lava Spawn - [|cffffcc00Level 6|r]
 }
 
 STRING 1039
-// Units: H02G (Pirate), Hotkey (Hotkey)
+// Units: z303 (Undead Tier 4), Hotkey (Hotkey)
 {
 C
 }
 
 STRING 1040
-// Units: H02J (Pander Prospero), Hotkey (Hotkey)
+// Units: z304 (Undead Tier 5), Hotkey (Hotkey)
 {
 C
 }
@@ -6348,13 +6387,13 @@ STRING 1046
 }
 
 STRING 1047
-// Units: h02V (Previous Page), Hotkey (Hotkey)
+// Units: z300 (Undead Tier 1), Hotkey (Hotkey)
 {
 C
 }
 
 STRING 1048
-// Units: H015 (Corruptor), Hotkey (Hotkey)
+// Units: z301 (Undead Tier 2), Hotkey (Hotkey)
 {
 C
 }
@@ -6432,6 +6471,16 @@ Shield of the Gods
 |cffffcc00Total Cost:|r 1600
 }
 
+STRING 1059
+{
+Player 5
+}
+
+STRING 1060
+{
+Player 6
+}
+
 STRING 1061
 // Items: I01Y (Super Net), Hotkey (Hotkey)
 {
@@ -6442,6 +6491,59 @@ STRING 1062
 // Abilities: A0K3 (Frost Armor), EditorSuffix (Editor Suffix)
 {
 Skeletons
+}
+
+STRING 1063
+{
+Player 7
+}
+
+STRING 1064
+{
+Player 8
+}
+
+STRING 1065
+{
+Player 9
+}
+
+STRING 1066
+{
+Player 10
+}
+
+STRING 1067
+{
+Player 11
+}
+
+STRING 1068
+{
+Player 12
+}
+
+STRING 1069
+// Units: hbar (Tier Zero), Ubertip (Tooltip - Extended)
+{
+|cff808080Spawned Units:|r Footmen
+|cff808080Spawn Interval:|r 8s
+|cff808080Bounty:|r 21 - 23 Gold
+
+|cffF5F5DCBase Stats, without any upgades:|r
+
+|cffF5F5DCAttack:|r
+|cffF5F5DC----------------------------|r
+|cff808080Range:|r Melee
+|cff808080Attack CD:|r 1.35s
+|cff808080Damage:|r 11 - 12
+
+|cffF5F5DCDefense:|r
+|cffF5F5DC----------------------------|r
+|cff808080HP:|r 460
+|cff808080Armor:|r 2
+|cff808080Armor Type:|r Medium
+
 }
 
 STRING 1070
@@ -6493,6 +6595,20 @@ If the Guardian jumps, he deals damage in a small area around the target locatio
 |cff808080Level 6 -|r |cffffff00Range|r <A0DU,Rng6> | |cffffff00AoE|r <A0CW,Area6> | |cffffff00DMG|r <A0CW,DataA6> 
 }
 
+STRING 1076
+// Units: h001 (Footmen Frenzy Reforged), Tip (Tooltip - Basic)
+{
+Upgrade to Human Tier 1
+}
+
+STRING 1077
+// Units: h001 (Footmen Frenzy Reforged), Ubertip (Tooltip - Extended)
+{
+|cff808080Spawned Units:|r Riflemen (|cff00ffffRanged|r Normal / |cffffff00Medium|r)|n|cff808080Health:|r 530
+|cff808080Spawn Interval:|r 9s
+
+}
+
 STRING 1078
 // Abilities: ANfl (Forked Lightning), EditorSuffix (Editor Suffix)
 {
@@ -6541,6 +6657,38 @@ STRING 1085
 |cff00ffff777 Club|r
 }
 
+STRING 1086
+// Units: z200 (Orc Tier 1), Name (Name)
+{
+Orc Tier 1
+}
+
+STRING 1087
+// Units: z200 (Orc Tier 1), Tip (Tooltip - Basic)
+{
+Upgrade to Orc Tier 1
+}
+
+STRING 1088
+// Units: z200 (Orc Tier 1), Ubertip (Tooltip - Extended)
+{
+|cff808080Spawned Units:|r Headhunter (|cff00ffffRanged|r |cffffff00Pierce / Medium|r) |n|cff808080Health:|r 535
+|cff808080Spawn Interval:|r 9s
+
+}
+
+STRING 1089
+// Abilities: ANfa (Frost Arrows), Unhotkey (Hotkey - Turn Off)
+{
+X
+}
+
+STRING 1090
+// Abilities: AUim (Impale), Hotkey (Hotkey - Normal)
+{
+Z
+}
+
 STRING 1091
 // Units: N027 (Mad Wizard), Propernames (Proper Names)
 {
@@ -6551,6 +6699,12 @@ STRING 1092
 // Abilities: A005 (Unholy Aura), Tip (Tooltip - Normal)
 {
 Unholy Aura - [|cffffcc00Level 4|r]
+}
+
+STRING 1093
+// Units: z001 (Scout Tower), Ubertip (Tooltip - Extended)
+{
+Basic observation tower. Has no attack, but can be upgraded into a Frost Tower or Cannon Tower. Can also be speed-upgraded, but results in shoddy construction.
 }
 
 STRING 1094
@@ -7266,7 +7420,7 @@ W
 }
 
 STRING 1235
-// Abilities: ANfa (Frost Arrows), Unhotkey (Hotkey - Turn Off)
+// Abilities: ANsq (Summon Quilbeast), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -7830,7 +7984,7 @@ Deals <A02C,DataA2> damage to a single target, then jumps to <A02C,DataB2> addti
 }
 
 STRING 1328
-// Abilities: ANsq (Summon Quilbeast), Hotkey (Hotkey - Normal)
+// Abilities: ANdh (Drunken Haze), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -8040,7 +8194,7 @@ W
 }
 
 STRING 1363
-// Abilities: ANdh (Drunken Haze), Hotkey (Hotkey - Normal)
+// Abilities: ANht (Howl of Terror), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -8774,13 +8928,13 @@ W
 }
 
 STRING 1484
-// Abilities: ANht (Howl of Terror), Hotkey (Hotkey - Normal)
+// Abilities: Acyc (Cyclone), Hotkey (Hotkey - Normal)
 {
 X
 }
 
 STRING 1485
-// Abilities: Acyc (Cyclone), Hotkey (Hotkey - Normal)
+// Abilities: Arej (Rejuvenation), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -9108,7 +9262,7 @@ W
 }
 
 STRING 1541
-// Abilities: Arej (Rejuvenation), Hotkey (Hotkey - Normal)
+// Abilities: ANcs (Cluster Rockets), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -9642,7 +9796,7 @@ Item Agility Bonus
 }
 
 STRING 1631
-// Abilities: ANcs (Cluster Rockets), Hotkey (Hotkey - Normal)
+// Abilities: ACls (Lightning Shield), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -10305,7 +10459,7 @@ STRING 1766
 }
 
 STRING 1767
-// Abilities: ACls (Lightning Shield), Hotkey (Hotkey - Normal)
+// Abilities: Aam2 (Anti-magic Shell), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -11069,7 +11223,7 @@ W
 }
 
 STRING 1897
-// Abilities: Aam2 (Anti-magic Shell), Hotkey (Hotkey - Normal)
+// Abilities: ACdm (Abolish Magic), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -11161,7 +11315,7 @@ C
 }
 
 STRING 1911
-// Abilities: ACdm (Abolish Magic), Hotkey (Hotkey - Normal)
+// Abilities: ACdm (Abolish Magic), Unhotkey (Hotkey - Turn Off)
 {
 X
 }
@@ -11618,7 +11772,7 @@ STRING 1984
 }
 
 STRING 1985
-// Abilities: ACdm (Abolish Magic), Unhotkey (Hotkey - Turn Off)
+// Abilities: ACsl (Sleep), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -11787,13 +11941,13 @@ Deals <A050,DataB3> damage to a single target and reduces their movement and att
 }
 
 STRING 2012
-// Abilities: ACsl (Sleep), Hotkey (Hotkey - Normal)
+// Abilities: ACcs (Curse), Hotkey (Hotkey - Normal)
 {
 X
 }
 
 STRING 2013
-// Abilities: ACcs (Curse), Hotkey (Hotkey - Normal)
+// Abilities: ACcs (Curse), Unhotkey (Hotkey - Turn Off)
 {
 X
 }
@@ -12389,7 +12543,7 @@ Water Blast - [|cffffcc00Level 2|r]
 }
 
 STRING 2122
-// Abilities: ACcs (Curse), Unhotkey (Hotkey - Turn Off)
+// Abilities: ACim (Immolation), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -12840,7 +12994,7 @@ Learn Firebolt - [|cffffcc00Level %d|r]
 }
 
 STRING 2197
-// Abilities: ACim (Immolation), Hotkey (Hotkey - Normal)
+// Abilities: ACim (Immolation), Unhotkey (Hotkey - Turn Off)
 {
 X
 }
@@ -13130,7 +13284,7 @@ Passively increases the Hero's armor by <A006,DataC5> and reflects <A006,DataA5,
 }
 
 STRING 2246
-// Abilities: ACim (Immolation), Unhotkey (Hotkey - Turn Off)
+// Abilities: AUfu (Frost Armor), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -13293,7 +13447,7 @@ Shoots an Energy Ball at a target enemy unit.
 }
 
 STRING 2273
-// Abilities: AUfu (Frost Armor), Hotkey (Hotkey - Normal)
+// Abilities: Acht (Song of Terror), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -15828,7 +15982,7 @@ Revive Shadow
 }
 
 STRING 2698
-// Abilities: Acht (Song of Terror), Hotkey (Hotkey - Normal)
+// Abilities: ANcr (Chemical Rage), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -16670,11 +16824,6 @@ STRING 2838
 // Abilities: A01I (Poison Arrows), Untip (Tooltip - Turn Off)
 {
 |cffc3dbffRight-click to activate auto-casting.|r
-}
-
-STRING 2839
-{
-Red
 }
 
 STRING 2840
@@ -17614,12 +17763,6 @@ STRING 2995
 Spell Damage Reduction
 }
 
-STRING 2996
-// Units: h01T (Tier Zero), EditorSuffix (Name - Editor Suffix)
-{
-(NEW)
-}
-
 STRING 2997
 // Abilities: A04Z (Firebolt), Tip (Tooltip - Normal)
 {
@@ -18395,7 +18538,7 @@ W
 }
 
 STRING 3126
-// Abilities: ANcr (Chemical Rage), Hotkey (Hotkey - Normal)
+// Abilities: ANlm (Summon Lava Spawn), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -19524,11 +19667,6 @@ STRING 3313
 (miRa Brew)
 }
 
-STRING 3314
-{
-Blue
-}
-
 STRING 3315
 // Units: n02E (Hero Tavern), Name (Name)
 {
@@ -19683,7 +19821,7 @@ STRING 3340
 }
 
 STRING 3341
-// Units: hbar (Tier Zero), Name (Name)
+// Units: h000 (Tier Zero), Name (Name)
 {
 Tier Zero
 }
@@ -19987,11 +20125,6 @@ STRING 3391
 (400)
 }
 
-STRING 3392
-{
-Teal
-}
-
 STRING 3393
 // Abilities: A0AC (Trueshot Aura), Tip (Tooltip - Normal)
 {
@@ -20008,11 +20141,6 @@ STRING 3395
 // Abilities: A04I (Endurance Aura), EditorSuffix (Editor Suffix)
 {
 (Undead Frenzy Soul, 15% / 10%)
-}
-
-STRING 3396
-{
-Purple
 }
 
 STRING 3397
@@ -20055,11 +20183,6 @@ STRING 3403
 // Abilities: A072 (Wind Walk), Tip (Tooltip - Normal)
 {
 |cffffcc00Z|r Wind Walk - [|cffffcc00Level 4|r]
-}
-
-STRING 3404
-{
-Yellow
 }
 
 STRING 3405
@@ -20244,13 +20367,7 @@ Summon |cffffcc00Zündler|r
 
 STRING 3435
 {
-optimized for Warcraft III |cffffcc00Reforged|r
-
-join our Discord:|cff7878ff tiny.cc/footmen|r
-leaderboard:|cff7878ff wc3stats.com/ffr|r
-
-Map by miRaculix
-
+Discord:|cff7878ff tiny.cc/footmen|r
 }
 
 STRING 3436
@@ -20320,16 +20437,6 @@ STRING 3445
 STRING 3446
 {
   
-}
-
-STRING 3447
-{
-Orange
-}
-
-STRING 3448
-{
-Green
 }
 
 STRING 3449
@@ -20446,7 +20553,7 @@ STRING 3467
 }
 
 STRING 3468
-// Abilities: ANlm (Summon Lava Spawn), Hotkey (Hotkey - Normal)
+// Abilities: Adtn (Detonate), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -20536,7 +20643,7 @@ C
 }
 
 STRING 3482
-// Abilities: Adtn (Detonate), Hotkey (Hotkey - Normal)
+// Abilities: ACpy (Polymorph), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -21253,7 +21360,7 @@ Gives <AHad,DataA1,.> additional armor to nearby friendly units.
 }
 
 STRING 3597
-// Units: hbar (Tier Zero), Ubertip (Tooltip - Extended)
+// Units: z000 (Tier Zero), Ubertip (Tooltip - Extended)
 {
 |cff808080Spawned Units:|r Footmen
 |cff808080Spawn Interval:|r 8s
@@ -21306,11 +21413,6 @@ STRING 3601
 Ninja´s Stealth Cloak
 }
 
-STRING 3602
-{
-Pink
-}
-
 STRING 3603
 // Items: I00T (Night Terror Armor), Name (Name)
 {
@@ -21339,11 +21441,6 @@ STRING 3607
 // Items: I00V (Heart of the Holy Maiden), Name (Name)
 {
 Heart of the Holy Maiden
-}
-
-STRING 3608
-{
-Grey
 }
 
 STRING 3609
@@ -21768,11 +21865,6 @@ STRING 3676
 Summons <AHpx,DataA3> Phoenix - a strong flying unit that burns nearby enemies. Has Magic Immunity and Resistant Skin. The Phoenix creates an Egg when it dies that will Hatch into a new Phoenix if not killed.
 }
 
-STRING 3677
-{
-Observer 10
-}
-
 STRING 3678
 // Abilities: AHpx (Phoenix), Researchubertip (Tooltip - Learn - Extended)
 {
@@ -21780,16 +21872,6 @@ Summons a Phoenix - a strong flying unit that burns nearby enemies. Has Magic Im
 |cff808080Level 1-|r |cffffff00Units Summoned|r <AHpx,DataA1> |cffffff00Cooldown|r <AHpx,Cool1>s
 |cff808080Level 2-|r |cffffff00Units Summoned|r <AHpx,DataA2> |cffffff00Cooldown|r <AHpx,Cool2>s
 |cff808080Level 3-|r |cffffff00Units Summoned|r <AHpx,DataA3> |cffffff00Cooldown|r <AHpx,Cool3>s
-}
-
-STRING 3679
-{
-Observer 11
-}
-
-STRING 3680
-{
-Observer 12
 }
 
 STRING 3681
@@ -21841,7 +21923,7 @@ Q
 }
 
 STRING 3689
-// Abilities: ACpy (Polymorph), Hotkey (Hotkey - Normal)
+// Abilities: ACd2 (Abolish Magic), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -22009,7 +22091,7 @@ STRING 3716
 }
 
 STRING 3717
-// Abilities: ACd2 (Abolish Magic), Hotkey (Hotkey - Normal)
+// Abilities: ACd2 (Abolish Magic), Unhotkey (Hotkey - Turn Off)
 {
 X
 }
@@ -22561,13 +22643,13 @@ C
 }
 
 STRING 3809
-// Abilities: ACd2 (Abolish Magic), Unhotkey (Hotkey - Turn Off)
+// Abilities: ACbn (Banish), Hotkey (Hotkey - Normal)
 {
 X
 }
 
 STRING 3810
-// Abilities: ACbn (Banish), Hotkey (Hotkey - Normal)
+// Abilities: Arep (Repair), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -22753,7 +22835,7 @@ W
 }
 
 STRING 3842
-// Abilities: Arep (Repair), Hotkey (Hotkey - Normal)
+// Abilities: Arep (Repair), Unhotkey (Hotkey - Turn Off)
 {
 X
 }
@@ -23203,7 +23285,7 @@ Magically binds a target and throws him in the opposite direction. Where the tar
 }
 
 STRING 3916
-// Abilities: Arep (Repair), Unhotkey (Hotkey - Turn Off)
+// Abilities: Adsm (Dispel Magic), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -23467,7 +23549,7 @@ Bloodlust - [|cffffcc00Level 2|r]
 }
 
 STRING 3960
-// Abilities: Adsm (Dispel Magic), Hotkey (Hotkey - Normal)
+// Abilities: A007 (Force Of Nature), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -24937,20 +25019,10 @@ STRING 4203
 Creep Mana - [|cffffcc00Level 4|r]
 }
 
-STRING 4204
-{
-Lightblue
-}
-
 STRING 4205
 // Abilities: A03F (Terror Wolf), Researchhotkey (Hotkey - Learn)
 {
 R
-}
-
-STRING 4206
-{
-Darkgreen
 }
 
 STRING 4207
@@ -24963,11 +25035,6 @@ STRING 4208
 // Abilities: A01I (Poison Arrows), Researchubertip (Tooltip - Learn - Extended)
 {
 At the cost of mana, gives your basic attacks more damage and additional damage over time. Also reduces the attack speed of affected enemies.|n|n|cff808080Level 1 -|r |cffffff00DMG|r +<A01I,DataA1> | |cffffff00Poison|r <A01I,DataB1>/s for <A01I,Dur1> (<A01I,HeroDur1>)s | |cffffff00AS|r -<A01I,DataD1,%>%|n|cff808080Level 2 -|r |cffffff00DMG|r +<A01I,DataA2> | |cffffff00Poison|r <A01I,DataB2>/s for <A01I,Dur2> (<A01I,HeroDur2>)s | |cffffff00AS|r -<A01I,DataD2,%>%|n|cff808080Level 3 -|r |cffffff00DMG|r +<A01I,DataA3> | |cffffff00Poison|r <A01I,DataB3>/s for <A01I,Dur3> (<A01I,HeroDur3>)s | |cffffff00AS|r -<A01I,DataD3,%>%|n|cff808080Level 4 -|r |cffffff00DMG|r +<A01I,DataA4> | |cffffff00Poison|r <A01I,DataB4>/s for <A01I,Dur4> (<A01I,HeroDur4>)s | |cffffff00AS|r -<A01I,DataD4,%>%|n|cff808080Level 5 -|r |cffffff00DMG|r +<A01I,DataA5> | |cffffff00Poison|r <A01I,DataB5>/s for <A01I,Dur5> (<A01I,HeroDur5>)s | |cffffff00AS|r -<A01I,DataD5,%>%|n|cff808080Level 6 -|r |cffffff00DMG|r +<A01I,DataA6> | |cffffff00Poison|r <A01I,DataB6>/s for <A01I,Dur6> (<A01I,HeroDur6>)s | |cffffff00AS|r -<A01I,DataD6,%>%
-}
-
-STRING 4209
-{
-Brown
 }
 
 STRING 4210
@@ -25356,11 +25423,6 @@ STRING 4273
 // Abilities: A029 (Carrion Beetles), Researchhotkey (Hotkey - Learn)
 {
 E
-}
-
-STRING 4274
-{
-General Information
 }
 
 STRING 4275
@@ -26028,7 +26090,7 @@ Poison Arrows - [|cffffcc00Level 2|r]
 }
 
 STRING 4378
-// Abilities: A007 (Force Of Nature), Hotkey (Hotkey - Normal)
+// Abilities: A009 (Tranquility), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -27128,7 +27190,7 @@ STRING 4567
 }
 
 STRING 4568
-// Units: hwtw (Scout Tower), Tip (Tooltip - Basic)
+// Units: h100 (Scout Tower), Tip (Tooltip - Basic)
 {
 Downgrade to Scout Tower
 }
@@ -27140,19 +27202,19 @@ Allows the Blademaster to become invisible, and move <AOwk,DataB4,%>% faster for
 }
 
 STRING 4570
-// Abilities: A009 (Tranquility), Hotkey (Hotkey - Normal)
-{
-X
-}
-
-STRING 4571
 // Abilities: A001 (Silence), Hotkey (Hotkey - Normal)
 {
 X
 }
 
-STRING 4572
+STRING 4571
 // Abilities: A010 (Ground Pound), Hotkey (Hotkey - Normal)
+{
+X
+}
+
+STRING 4572
+// Abilities: A01W (Ice Shards), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -27866,7 +27928,7 @@ Bloodrush
 }
 
 STRING 4690
-// Abilities: A01W (Ice Shards), Hotkey (Hotkey - Normal)
+// Abilities: A01W (Ice Shards), Unhotkey (Hotkey - Turn Off)
 {
 X
 }
@@ -27940,13 +28002,13 @@ Q
 }
 
 STRING 4700
-// Abilities: A01W (Ice Shards), Unhotkey (Hotkey - Turn Off)
+// Abilities: A020 (Zoz), Hotkey (Hotkey - Normal)
 {
 X
 }
 
 STRING 4701
-// Abilities: A020 (Zoz), Hotkey (Hotkey - Normal)
+// Abilities: A02M (Devour Magic), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -28112,7 +28174,7 @@ AutoSend: |cff00ff00ON|r
 }
 
 STRING 4727
-// Abilities: A02M (Devour Magic), Hotkey (Hotkey - Normal)
+// Abilities: A03Q (Death Coil), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -28467,11 +28529,6 @@ get in contact with  miRaculix and for a small fee you can get your own hero!
 please be aware that we might have to make some adjustments to balance your hero.
 }
 
-STRING 4786
-{
-Map Info
-}
-
 STRING 4787
 // Abilities: Aivs (Invisibility), EditorSuffix (Editor Suffix)
 {
@@ -28587,7 +28644,7 @@ An impenetrable shield surrounds this unit, protecting it from all damage and sp
 }
 
 STRING 4806
-// Units: h00C (Orc Tier 2), Tip (Tooltip - Basic)
+// Units: z201 (Orc Tier 2), Tip (Tooltip - Basic)
 {
 Upgrade to Orc Tier 2
 }
@@ -29635,11 +29692,6 @@ STRING 4975
  #1
 }
 
-STRING 4976
-{
-Observer 1
-}
-
 STRING 4977
 // Abilities: A09C (Acid Cloud), Tip (Tooltip - Normal)
 {
@@ -29875,7 +29927,7 @@ Z
 }
 
 STRING 5017
-// Abilities: A03Q (Death Coil), Hotkey (Hotkey - Normal)
+// Abilities: A041 (Mirror Image), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -29959,7 +30011,7 @@ STRING 5030
 }
 
 STRING 5031
-// Abilities: A041 (Mirror Image), Hotkey (Hotkey - Normal)
+// Abilities: A042 (Dark Flame), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -30648,13 +30700,13 @@ W
 }
 
 STRING 5146
-// Abilities: A042 (Dark Flame), Hotkey (Hotkey - Normal)
+// Abilities: A042 (Dark Flame), Unhotkey (Hotkey - Turn Off)
 {
 X
 }
 
 STRING 5147
-// Abilities: A042 (Dark Flame), Unhotkey (Hotkey - Turn Off)
+// Abilities: A04E (Lightning Armor), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -31020,7 +31072,7 @@ Q
 }
 
 STRING 5209
-// Abilities: A04E (Lightning Armor), Hotkey (Hotkey - Normal)
+// Abilities: A04Z (Firebolt), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -31669,7 +31721,7 @@ R
 }
 
 STRING 5317
-// Abilities: A04Z (Firebolt), Hotkey (Hotkey - Normal)
+// Abilities: A052 (Cluster Rockets), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -31958,7 +32010,7 @@ STRING 5363
 }
 
 STRING 5364
-// Abilities: A052 (Cluster Rockets), Hotkey (Hotkey - Normal)
+// Abilities: A058 (Silence), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -31994,7 +32046,7 @@ Q
 }
 
 STRING 5370
-// Abilities: A058 (Silence), Hotkey (Hotkey - Normal)
+// Abilities: A01R (AR), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -32336,7 +32388,7 @@ W
 }
 
 STRING 5427
-// Abilities: A01R (AR), Hotkey (Hotkey - Normal)
+// Abilities: A01Y (Summon Zerglings), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -32715,7 +32767,7 @@ Q
 }
 
 STRING 5490
-// Abilities: A01Y (Summon Zerglings), Hotkey (Hotkey - Normal)
+// Abilities: A04S (Mass Hex), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -32820,11 +32872,6 @@ STRING 5507
 // Abilities: A03M (Mana Burn), Ubertip (Tooltip - Normal - Extended)
 {
 Destroys <A03M,DataA4> mana from a target, and deals spell damage to it equal to the mana removed.
-}
-
-STRING 5508
-{
-Observer 2
 }
 
 STRING 5509
@@ -33100,7 +33147,7 @@ W
 }
 
 STRING 5554
-// Abilities: A04S (Mass Hex), Hotkey (Hotkey - Normal)
+// Abilities: A05G (Summon Zombie), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -33196,7 +33243,7 @@ W
 }
 
 STRING 5570
-// Abilities: A05G (Summon Zombie), Hotkey (Hotkey - Normal)
+// Abilities: A06E (AoE Invisibility), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -33382,13 +33429,13 @@ W
 }
 
 STRING 5601
-// Abilities: A06E (AoE Invisibility), Hotkey (Hotkey - Normal)
+// Abilities: A06V (Anti-magic Shell), Hotkey (Hotkey - Normal)
 {
 X
 }
 
 STRING 5602
-// Abilities: A06V (Anti-magic Shell), Hotkey (Hotkey - Normal)
+// Abilities: A075 (Ensnare), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -33898,7 +33945,7 @@ Q
 }
 
 STRING 5687
-// Abilities: A075 (Ensnare), Hotkey (Hotkey - Normal)
+// Abilities: A075 (Ensnare), Unhotkey (Hotkey - Turn Off)
 {
 X
 }
@@ -34048,7 +34095,7 @@ W
 }
 
 STRING 5712
-// Abilities: A075 (Ensnare), Unhotkey (Hotkey - Turn Off)
+// Abilities: A07I (Leave if you don’t get Myrmidon), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -34304,55 +34351,55 @@ Holy Light - [|cffffcc00Level 4|r]
 }
 
 STRING 5750
-// Units: n00S (Jamie the High Priest), EditorSuffix (Name - Editor Suffix)
+// Units: n00A (Zeppelin), EditorSuffix (Name - Editor Suffix)
 {
 (Creep Shop #1)
 }
 
 STRING 5751
-// Units: n00T (Rocky Golem), EditorSuffix (Name - Editor Suffix)
+// Units: n00S (Jamie the High Priest), EditorSuffix (Name - Editor Suffix)
 {
 (Creep Shop #1)
 }
 
 STRING 5752
-// Units: n005 (Renegade Wizard), EditorSuffix (Name - Editor Suffix)
+// Units: n00T (Rocky Golem), EditorSuffix (Name - Editor Suffix)
 {
 (Creep Shop #1)
 }
 
 STRING 5753
-// Units: o00A (Demolisher), EditorSuffix (Name - Editor Suffix)
+// Units: n005 (Renegade Wizard), EditorSuffix (Name - Editor Suffix)
 {
 (Creep Shop #1)
 }
 
 STRING 5754
-// Units: n006 (Pocky the Rat), EditorSuffix (Name - Editor Suffix)
+// Units: o00A (Demolisher), EditorSuffix (Name - Editor Suffix)
 {
 (Creep Shop #1)
 }
 
 STRING 5755
-// Units: n00Q (Giant Sea Turtle), EditorSuffix (Name - Editor Suffix)
+// Units: n006 (Pocky the Rat), EditorSuffix (Name - Editor Suffix)
 {
 (Creep Shop #1)
 }
 
 STRING 5756
-// Units: n011 (Blank the War Golem), EditorSuffix (Name - Editor Suffix)
+// Units: n00Q (Giant Sea Turtle), EditorSuffix (Name - Editor Suffix)
 {
 (Creep Shop #1)
 }
 
 STRING 5757
-// Units: h00R (Priest of Protection), EditorSuffix (Name - Editor Suffix)
+// Units: n011 (Blank the War Golem), EditorSuffix (Name - Editor Suffix)
 {
 (Creep Shop #1)
 }
 
 STRING 5758
-// Units: h000 (Peasant), EditorSuffix (Name - Editor Suffix)
+// Units: h00R (Priest of Protection), EditorSuffix (Name - Editor Suffix)
 {
 (Creep Shop #1)
 }
@@ -34432,13 +34479,13 @@ Z
 }
 
 STRING 5771
-// Abilities: A07I (Leave if you don’t get Myrmidon), Hotkey (Hotkey - Normal)
+// Abilities: A07O (Frost Armor), Hotkey (Hotkey - Normal)
 {
 X
 }
 
 STRING 5772
-// Abilities: A07O (Frost Armor), Hotkey (Hotkey - Normal)
+// Abilities: A07P (Devour Magic), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -34868,19 +34915,19 @@ STRING 5842
 }
 
 STRING 5843
-// Units: z000 (Zergling), EditorSuffix (Name - Editor Suffix)
+// Units: zz03 (Zergling), EditorSuffix (Name - Editor Suffix)
 {
 (lv 6)
 }
 
 STRING 5844
-// Units: z001 (Zergling), EditorSuffix (Name - Editor Suffix)
+// Units: zz00 (Zergling), EditorSuffix (Name - Editor Suffix)
 {
 (lv 3&4)
 }
 
 STRING 5845
-// Units: z002 (Zergling), EditorSuffix (Name - Editor Suffix)
+// Units: zz02 (Zergling), EditorSuffix (Name - Editor Suffix)
 {
 (lv5)
 }
@@ -35096,7 +35143,7 @@ STRING 5879
 }
 
 STRING 5880
-// Abilities: A07P (Devour Magic), Hotkey (Hotkey - Normal)
+// Abilities: A07W (War Stomp), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -35144,7 +35191,7 @@ W
 }
 
 STRING 5888
-// Abilities: A07W (War Stomp), Hotkey (Hotkey - Normal)
+// Abilities: A07X (Bloodrush), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -35234,7 +35281,7 @@ Spell Damage Reduction
 }
 
 STRING 5903
-// Abilities: A07X (Bloodrush), Hotkey (Hotkey - Normal)
+// Abilities: A07X (Bloodrush), Unhotkey (Hotkey - Turn Off)
 {
 X
 }
@@ -35570,13 +35617,13 @@ Conjures a pillar of flame that burns ground units over 4.33 seconds. As the pil
 }
 
 STRING 5957
-// Abilities: A07X (Bloodrush), Unhotkey (Hotkey - Turn Off)
+// Abilities: A08F (War Stomp), Hotkey (Hotkey - Normal)
 {
 X
 }
 
 STRING 5958
-// Abilities: A08F (War Stomp), Hotkey (Hotkey - Normal)
+// Abilities: A08G (Charge), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -36070,7 +36117,7 @@ C
 }
 
 STRING 6039
-// Abilities: A08G (Charge), Hotkey (Hotkey - Normal)
+// Abilities: A05Q (War Stomp), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -36179,7 +36226,7 @@ Q
 }
 
 STRING 6056
-// Abilities: A05Q (War Stomp), Hotkey (Hotkey - Normal)
+// Abilities: A08M (Throw Grenade), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -36353,7 +36400,7 @@ Q
 }
 
 STRING 6085
-// Abilities: A08M (Throw Grenade), Hotkey (Hotkey - Normal)
+// Abilities: A08V (Quick Scope), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -37245,7 +37292,7 @@ W
 }
 
 STRING 6228
-// Abilities: A08V (Quick Scope), Hotkey (Hotkey - Normal)
+// Abilities: A08X (Objection!), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -37642,7 +37689,7 @@ W
 }
 
 STRING 6292
-// Abilities: A08X (Objection!), Hotkey (Hotkey - Normal)
+// Abilities: A097 (Blink), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -38716,7 +38763,7 @@ Q
 }
 
 STRING 6463
-// Abilities: A097 (Blink), Hotkey (Hotkey - Normal)
+// Abilities: A07T (AoE Anti-Magic), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -38746,7 +38793,7 @@ W
 }
 
 STRING 6468
-// Abilities: A07T (AoE Anti-Magic), Hotkey (Hotkey - Normal)
+// Abilities: A09E (Acid Armor), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -38870,7 +38917,7 @@ W
 }
 
 STRING 6488
-// Abilities: A09E (Acid Armor), Hotkey (Hotkey - Normal)
+// Abilities: A09D (Mass Cripple), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -39235,7 +39282,7 @@ Q
 }
 
 STRING 6543
-// Abilities: A09D (Mass Cripple), Hotkey (Hotkey - Normal)
+// Abilities: A09H (Flaming Lasso), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -39415,7 +39462,7 @@ Meteor Shower
 }
 
 STRING 6570
-// Abilities: A09H (Flaming Lasso), Hotkey (Hotkey - Normal)
+// Abilities: A09S (Mass Cripple), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -40234,13 +40281,13 @@ F
 }
 
 STRING 6704
-// Abilities: A09S (Mass Cripple), Hotkey (Hotkey - Normal)
+// Abilities: A09T (Shadow Strike), Hotkey (Hotkey - Normal)
 {
 X
 }
 
 STRING 6705
-// Abilities: A09T (Shadow Strike), Hotkey (Hotkey - Normal)
+// Abilities: A09X (Nuke), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -40670,7 +40717,7 @@ Turns units invisible, gives them a speed bonus and a magic shield. Lasts for 40
 }
 
 STRING 6775
-// Abilities: A09X (Nuke), Hotkey (Hotkey - Normal)
+// Abilities: A09Y (AoE Health & Mana restoration.), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -40710,7 +40757,7 @@ STRING 6780
 }
 
 STRING 6781
-// Abilities: A09Y (AoE Health & Mana restoration.), Hotkey (Hotkey - Normal)
+// Abilities: A0A7 (Anti-magic Shell), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -40819,7 +40866,7 @@ W
 }
 
 STRING 6798
-// Abilities: A0A7 (Anti-magic Shell), Hotkey (Hotkey - Normal)
+// Abilities: A0AD (Ensnare), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -40885,21 +40932,6 @@ STRING 6807
 Scroll of Restoration ( Warhymn 3)
 }
 
-STRING 6808
-{
-Observer 3
-}
-
-STRING 6809
-{
-Observer 4
-}
-
-STRING 6810
-{
-Observer 5
-}
-
 STRING 6811
 // Abilities: A09U (Item Area Heal/Mana Regain), EditorSuffix (Editor Suffix)
 {
@@ -40919,7 +40951,7 @@ STRING 6813
 }
 
 STRING 6814
-// Abilities: A0AD (Ensnare), Hotkey (Hotkey - Normal)
+// Abilities: A0AG (Tower Defense), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -41009,7 +41041,7 @@ C
 }
 
 STRING 6829
-// Abilities: A0AG (Tower Defense), Hotkey (Hotkey - Normal)
+// Abilities: A0AP (Charge), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -41135,7 +41167,7 @@ R
 }
 
 STRING 6850
-// Abilities: A0AP (Charge), Hotkey (Hotkey - Normal)
+// Abilities: A0AR (Summon Fire Dragon), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -41411,7 +41443,7 @@ W
 }
 
 STRING 6895
-// Abilities: A0AR (Summon Fire Dragon), Hotkey (Hotkey - Normal)
+// Abilities: A0AT (Incinerate), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -41489,7 +41521,7 @@ Z
 }
 
 STRING 6908
-// Abilities: A0AT (Incinerate), Hotkey (Hotkey - Normal)
+// Abilities: A0AZ (Poison Arrows), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -41513,7 +41545,7 @@ STRING 6911
 }
 
 STRING 6912
-// Abilities: A0AZ (Poison Arrows), Hotkey (Hotkey - Normal)
+// Abilities: A0AZ (Poison Arrows), Unhotkey (Hotkey - Turn Off)
 {
 X
 }
@@ -41597,7 +41629,7 @@ D
 }
 
 STRING 6926
-// Abilities: A0AZ (Poison Arrows), Unhotkey (Hotkey - Turn Off)
+// Abilities: A0B1 (Mass Entangling Roots), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -42626,7 +42658,7 @@ R
 }
 
 STRING 7097
-// Abilities: A0B1 (Mass Entangling Roots), Hotkey (Hotkey - Normal)
+// Abilities: A0B4 (AoE Health & Mana restoration.), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -42698,19 +42730,19 @@ W
 }
 
 STRING 7109
-// Abilities: A0B4 (AoE Health & Mana restoration.), Hotkey (Hotkey - Normal)
-{
-X
-}
-
-STRING 7110
 // Abilities: A0B7 (Divine Shield), Hotkey (Hotkey - Normal)
 {
 X
 }
 
-STRING 7111
+STRING 7110
 // Abilities: A0B7 (Divine Shield), Unhotkey (Hotkey - Turn Off)
+{
+X
+}
+
+STRING 7111
+// Abilities: A0BC (Slow Stomp), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -43507,19 +43539,19 @@ STRING 7235
 }
 
 STRING 7236
-// Abilities: A0BC (Slow Stomp), Hotkey (Hotkey - Normal)
-{
-X
-}
-
-STRING 7237
 // Abilities: A0BD (Slow Stomp), Hotkey (Hotkey - Normal)
 {
 X
 }
 
-STRING 7238
+STRING 7237
 // Abilities: A0BE (Slow Stomp), Hotkey (Hotkey - Normal)
+{
+X
+}
+
+STRING 7238
+// Abilities: A0BF (Mirror Image), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -43622,7 +43654,7 @@ Q
 }
 
 STRING 7254
-// Abilities: A0BF (Mirror Image), Hotkey (Hotkey - Normal)
+// Abilities: A0BL (Thunder Clap), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -43898,7 +43930,7 @@ W
 }
 
 STRING 7300
-// Abilities: A0BL (Thunder Clap), Hotkey (Hotkey - Normal)
+// Abilities: A0BP (Abolish Magic), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -44159,7 +44191,7 @@ W
 }
 
 STRING 7342
-// Abilities: A0BP (Abolish Magic), Hotkey (Hotkey - Normal)
+// Abilities: A0BP (Abolish Magic), Unhotkey (Hotkey - Turn Off)
 {
 X
 }
@@ -44553,13 +44585,13 @@ R
 }
 
 STRING 7402
-// Abilities: A0BP (Abolish Magic), Unhotkey (Hotkey - Turn Off)
+// Abilities: A0C0 (Banish), Hotkey (Hotkey - Normal)
 {
 X
 }
 
 STRING 7403
-// Abilities: A0C0 (Banish), Hotkey (Hotkey - Normal)
+// Abilities: A0C2 (Blink), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -44577,7 +44609,7 @@ E
 }
 
 STRING 7406
-// Abilities: A0C2 (Blink), Hotkey (Hotkey - Normal)
+// Abilities: A0C6 (Jaood´s Curse), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -44685,7 +44717,7 @@ Z
 }
 
 STRING 7423
-// Abilities: A0C6 (Jaood´s Curse), Hotkey (Hotkey - Normal)
+// Abilities: A0CB (Static Screen), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -44829,7 +44861,7 @@ W
 }
 
 STRING 7447
-// Abilities: A0CB (Static Screen), Hotkey (Hotkey - Normal)
+// Abilities: A0CB (Static Screen), Unhotkey (Hotkey - Turn Off)
 {
 X
 }
@@ -45267,13 +45299,13 @@ Holy Light - [|cffffcc00Level 5|r]
 }
 
 STRING 7518
-// Abilities: A0CB (Static Screen), Unhotkey (Hotkey - Turn Off)
+// Abilities: A0CG (Death Pact), Hotkey (Hotkey - Normal)
 {
 X
 }
 
 STRING 7519
-// Abilities: A0CG (Death Pact), Hotkey (Hotkey - Normal)
+// Abilities: A0CI (Dark Ritual), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -45619,19 +45651,19 @@ W
 }
 
 STRING 7577
-// Abilities: A0CI (Dark Ritual), Hotkey (Hotkey - Normal)
-{
-X
-}
-
-STRING 7578
 // Abilities: A0CM (AoE Inner Fire), Hotkey (Hotkey - Normal)
 {
 X
 }
 
-STRING 7579
+STRING 7578
 // Abilities: A0CR (Summon Ice Dragon), Hotkey (Hotkey - Normal)
+{
+X
+}
+
+STRING 7579
+// Abilities: A0CZ (Light Burst), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -45679,7 +45711,7 @@ W
 }
 
 STRING 7587
-// Abilities: A0CZ (Light Burst), Hotkey (Hotkey - Normal)
+// Abilities: A0D8 (AoE illusion), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -45943,7 +45975,7 @@ W
 }
 
 STRING 7631
-// Abilities: A0D8 (AoE illusion), Hotkey (Hotkey - Normal)
+// Abilities: A0DM (War Stomp), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -46075,7 +46107,7 @@ R
 }
 
 STRING 7653
-// Abilities: A0DM (War Stomp), Hotkey (Hotkey - Normal)
+// Abilities: A0DS (Howl of Terror), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -46243,13 +46275,13 @@ R
 }
 
 STRING 7681
-// Abilities: A0DS (Howl of Terror), Hotkey (Hotkey - Normal)
+// Abilities: A0DY (Stun Arrow), Hotkey (Hotkey - Normal)
 {
 X
 }
 
 STRING 7682
-// Abilities: A0DY (Stun Arrow), Hotkey (Hotkey - Normal)
+// Abilities: A0E0 (Frost Nova), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -46735,7 +46767,7 @@ W
 }
 
 STRING 7763
-// Abilities: A0E0 (Frost Nova), Hotkey (Hotkey - Normal)
+// Abilities: A0E1 (Firebolt), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -46804,7 +46836,7 @@ This upgrade affects all buildings in your base.
 }
 
 STRING 7772
-// Abilities: A0E1 (Firebolt), Hotkey (Hotkey - Normal)
+// Abilities: A0E2 (Cripple), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -47644,13 +47676,13 @@ Z
 }
 
 STRING 7911
-// Abilities: A0E2 (Cripple), Hotkey (Hotkey - Normal)
+// Abilities: A0E5 (Thunder Clap), Hotkey (Hotkey - Normal)
 {
 X
 }
 
 STRING 7912
-// Abilities: A0E5 (Thunder Clap), Hotkey (Hotkey - Normal)
+// Abilities: A0E6 (Thunder Clap), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -48996,7 +49028,7 @@ R
 }
 
 STRING 8118
-// Abilities: A0E6 (Thunder Clap), Hotkey (Hotkey - Normal)
+// Abilities: A0DU (Psionic Transfer), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -49361,7 +49393,7 @@ W
 }
 
 STRING 8176
-// Abilities: A0DU (Psionic Transfer), Hotkey (Hotkey - Normal)
+// Abilities: A0EG (Light Burst), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -49457,7 +49489,7 @@ Q
 }
 
 STRING 8192
-// Abilities: A0EG (Light Burst), Hotkey (Hotkey - Normal)
+// Abilities: A0CW (Thunder Clap), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -49625,13 +49657,13 @@ Z
 }
 
 STRING 8220
-// Abilities: A0CW (Thunder Clap), Hotkey (Hotkey - Normal)
+// Abilities: A0EI (Holy Light), Hotkey (Hotkey - Normal)
 {
 X
 }
 
 STRING 8221
-// Abilities: A0EI (Holy Light), Hotkey (Hotkey - Normal)
+// Abilities: A0EJ (Entangling Roots), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -49715,7 +49747,7 @@ W
 }
 
 STRING 8235
-// Abilities: A0EJ (Entangling Roots), Hotkey (Hotkey - Normal)
+// Abilities: A047 (Berserk), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -50036,13 +50068,13 @@ W
 }
 
 STRING 8284
-// Abilities: A047 (Berserk), Hotkey (Hotkey - Normal)
+// Abilities: A0EO (Summon Naga Siren), Hotkey (Hotkey - Normal)
 {
 X
 }
 
 STRING 8285
-// Abilities: A0EO (Summon Naga Siren), Hotkey (Hotkey - Normal)
+// Abilities: A0EQ (Summon Water Elemental), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -50590,7 +50622,7 @@ STRING 8374
 }
 
 STRING 8375
-// Abilities: A0EQ (Summon Water Elemental), Hotkey (Hotkey - Normal)
+// Abilities: A0EZ (Firebolt), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -50854,7 +50886,7 @@ Learn Toy Factory - [|cffffcc00Level %d|r]
 }
 
 STRING 8419
-// Abilities: A0EZ (Firebolt), Hotkey (Hotkey - Normal)
+// Abilities: A0F6 (Thunder Clap), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -51261,7 +51293,7 @@ W
 }
 
 STRING 8486
-// Abilities: A0F6 (Thunder Clap), Hotkey (Hotkey - Normal)
+// Abilities: A0FJ (Healing Spray), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -51530,7 +51562,7 @@ Leave if you don't get Myrmidon - [|cffffcc00Level 3|r]
 }
 
 STRING 8538
-// Abilities: A0FJ (Healing Spray), Hotkey (Hotkey - Normal)
+// Abilities: A0FN (Incinerate), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -51646,7 +51678,7 @@ W
 }
 
 STRING 8557
-// Abilities: A0FN (Incinerate), Hotkey (Hotkey - Normal)
+// Abilities: A0FQ (Banish), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -51685,11 +51717,6 @@ STRING 8563
 // Abilities: A0GM (Burning Arrows), Unhotkey (Hotkey - Turn Off)
 {
 Z
-}
-
-STRING 8564
-{
-Observers
 }
 
 STRING 8565
@@ -51849,7 +51876,7 @@ W
 }
 
 STRING 8591
-// Abilities: A0FQ (Banish), Hotkey (Hotkey - Normal)
+// Abilities: A0G2 (Howl of Terror), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -51867,13 +51894,13 @@ W
 }
 
 STRING 8594
-// Abilities: A0G2 (Howl of Terror), Hotkey (Hotkey - Normal)
+// Abilities: A0G5 (Corruption), Hotkey (Hotkey - Normal)
 {
 X
 }
 
 STRING 8595
-// Abilities: A0G5 (Corruption), Hotkey (Hotkey - Normal)
+// Abilities: A0FZ (Thunder Clap), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -51903,7 +51930,7 @@ W
 }
 
 STRING 8600
-// Abilities: A0FZ (Thunder Clap), Hotkey (Hotkey - Normal)
+// Abilities: A0G6 (War Stomp), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -51939,7 +51966,7 @@ Orange Slot Please - [|cffffcc00Level 5|r]
 }
 
 STRING 8606
-// Abilities: A0G6 (War Stomp), Hotkey (Hotkey - Normal)
+// Abilities: A0GB (Healing Ward of the Gods), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -52012,7 +52039,7 @@ S
 }
 
 STRING 8617
-// Abilities: A0GB (Healing Ward of the Gods), Hotkey (Hotkey - Normal)
+// Abilities: A0GG (Thunder Clap), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -52438,7 +52465,7 @@ STRING 8682
 }
 
 STRING 8683
-// Units: h00D (Night Elf Tier 2), Tip (Tooltip - Basic)
+// Units: z401 (Night Elf Tier 2), Tip (Tooltip - Basic)
 {
 Upgrade to Night Elf Tier 2
 }
@@ -55900,7 +55927,7 @@ Heavy defensive structure. Incredible splash, good damage, but may damage your t
 }
 
 STRING 9254
-// Units: h01T (Tier Zero), Name (Name)
+// Units: z000 (Tier Zero), Name (Name)
 {
 Tier Zero
 }
@@ -55984,7 +56011,7 @@ Anti-magic Shell - [|cfffcc00Level 6|r]
 }
 
 STRING 9268
-// Units: hwtw (Scout Tower), Ubertip (Tooltip - Extended)
+// Units: h100 (Scout Tower), Ubertip (Tooltip - Extended)
 {
 Basic observation tower. Has no attack, but can be upgraded into a Frost Tower or Cannon Tower. Can also be speed-upgraded, but results in shoddy construction.
 }
@@ -56400,7 +56427,7 @@ Summon |cffffcc00Shadow Hunter|r
 }
 
 STRING 9335
-// Units: h00C (Orc Tier 2), Name (Name)
+// Units: z201 (Orc Tier 2), Name (Name)
 {
 Orc Tier 2
 }
@@ -56418,13 +56445,13 @@ V
 }
 
 STRING 9338
-// Units: h00G (Human Tier 2), Tip (Tooltip - Basic)
+// Units: z101 (Human Tier 2), Tip (Tooltip - Basic)
 {
 Upgrade to Human Tier 2
 }
 
 STRING 9339
-// Units: h00D (Night Elf Tier 2), Name (Name)
+// Units: z401 (Night Elf Tier 2), Name (Name)
 {
 Night Elf Tier 2
 }
@@ -56628,7 +56655,7 @@ Summon |cffffcc00Pit Lord|r
 }
 
 STRING 9372
-// Units: h00G (Human Tier 2), Name (Name)
+// Units: z101 (Human Tier 2), Name (Name)
 {
 Human Tier 2
 }
@@ -56639,22 +56666,10 @@ STRING 9373
 (Pos 3 E/C)
 }
 
-STRING 9374
-// Units: h00H (Orc Tier 1), Tip (Tooltip - Basic)
-{
-Upgrade to Orc Tier 1
-}
-
 STRING 9375
 // Abilities: A0A5 (Summon Brutal Lord), Tip (Tooltip - Normal)
 {
 Brutal Lord- [|cffffcc00Level 3|r]
-}
-
-STRING 9376
-// Units: h00H (Orc Tier 1), Name (Name)
-{
-Orc Tier 1
 }
 
 STRING 9377
@@ -56681,7 +56696,7 @@ Higher levels cast more durable shields and do more jumps
 }
 
 STRING 9380
-// Units: h00I (Undead Tier 3), Name (Name)
+// Units: z302 (Undead Tier 3), Name (Name)
 {
 Undead Tier 3
 }
@@ -56699,13 +56714,13 @@ STRING 9382
 }
 
 STRING 9383
-// Units: h00I (Undead Tier 3), Tip (Tooltip - Basic)
+// Units: z302 (Undead Tier 3), Tip (Tooltip - Basic)
 {
 Upgrade to Undead Tier 3
 }
 
 STRING 9384
-// Units: h00J (Night Elf Tier 3), Name (Name)
+// Units: z402 (Night Elf Tier 3), Name (Name)
 {
 Night Elf Tier 3
 }
@@ -56999,7 +57014,7 @@ Maneuverable spellcaster. Can cast Cyclone and Firebolt. |n|n|cffffcc00Attacks l
 }
 
 STRING 9433
-// Units: h00L (Night Elf Tier 4), Name (Name)
+// Units: z403 (Night Elf Tier 4), Name (Name)
 {
 Night Elf Tier 4
 }
@@ -57023,7 +57038,7 @@ C
 }
 
 STRING 9437
-// Units: h00M (Orc Tier 4), Name (Name)
+// Units: z203 (Orc Tier 4), Name (Name)
 {
 Orc Tier 4
 }
@@ -57041,13 +57056,13 @@ Calls down meteors from the sky that deal <A0DT,DataB2> damage to units in a tar
 }
 
 STRING 9440
-// Units: h00J (Night Elf Tier 3), Tip (Tooltip - Basic)
+// Units: z402 (Night Elf Tier 3), Tip (Tooltip - Basic)
 {
 Upgrade to Night Elf Tier 3
 }
 
 STRING 9441
-// Units: h00N (Undead Tier 4), Name (Name)
+// Units: z303 (Undead Tier 4), Name (Name)
 {
 Undead Tier 4
 }
@@ -57071,7 +57086,7 @@ A
 }
 
 STRING 9445
-// Units: h00O (Human Tier 5), Name (Name)
+// Units: z105 (Human Tier 5), Name (Name)
 {
 Human Tier 5
 }
@@ -57083,7 +57098,7 @@ Absinthe
 }
 
 STRING 9447
-// Units: h00L (Night Elf Tier 4), Tip (Tooltip - Basic)
+// Units: z403 (Night Elf Tier 4), Tip (Tooltip - Basic)
 {
 Upgrade to Night Elf Tier 4
 }
@@ -57335,7 +57350,7 @@ Gazz Stripbolt,Riket Contraption,Mekka Gobb,Tek Piecetinker,Plug Rattletrap,Tiam
 }
 
 STRING 9489
-// Units: h00V (Human Tier 3), Name (Name)
+// Units: z102 (Human Tier 3), Name (Name)
 {
 Human Tier 3
 }
@@ -57347,7 +57362,7 @@ STRING 9490
 }
 
 STRING 9491
-// Units: h00M (Orc Tier 4), Tip (Tooltip - Basic)
+// Units: z203 (Orc Tier 4), Tip (Tooltip - Basic)
 {
 Upgrade to Orc Tier 4
 }
@@ -57359,7 +57374,7 @@ Causes a target enemy unit to be bound to the ground so that it cannot move for 
 }
 
 STRING 9493
-// Units: h00W (Human Tier 1), Name (Name)
+// Units: z100 (Human Tier 1), Name (Name)
 {
 Human Tier 1
 }
@@ -57403,7 +57418,7 @@ STRING 9496
 }
 
 STRING 9497
-// Units: h00Z (Undead Tier 1), Name (Name)
+// Units: z300 (Undead Tier 1), Name (Name)
 {
 Undead Tier 1
 }
@@ -57441,7 +57456,7 @@ STRING 9500
 }
 
 STRING 9501
-// Units: h00B (Undead Tier 2), Name (Name)
+// Units: z301 (Undead Tier 2), Name (Name)
 {
 Undead Tier 2
 }
@@ -57459,7 +57474,7 @@ Wreaths an enemy unit in magical flames which cause <ANso,DataA1> damage per sec
 }
 
 STRING 9504
-// Units: h00N (Undead Tier 4), Tip (Tooltip - Basic)
+// Units: z303 (Undead Tier 4), Tip (Tooltip - Basic)
 {
 Upgrade to Undead Tier 4
 }
@@ -57489,7 +57504,7 @@ Reduces the damage taken from spells and magic attacks by <A0AE,DataE3,%>%.
 }
 
 STRING 9509
-// Units: h002 (Night Elf Tier 1), Name (Name)
+// Units: z400 (Night Elf Tier 1), Name (Name)
 {
 Night Elf Tier 1
 }
@@ -57527,7 +57542,7 @@ STRING 9512
 }
 
 STRING 9513
-// Units: h003 (Orc Tier 3), Name (Name)
+// Units: z202 (Orc Tier 3), Name (Name)
 {
 Orc Tier 3
 }
@@ -57563,19 +57578,19 @@ STRING 9515
 }
 
 STRING 9516
-// Units: h00O (Human Tier 5), Tip (Tooltip - Basic)
+// Units: z105 (Human Tier 5), Tip (Tooltip - Basic)
 {
 Upgrade to Human Tier 5
 }
 
 STRING 9517
-// Units: h000 (Peasant), Ubertip (Tooltip - Extended)
+// Units: h000 (Tier Zero), Ubertip (Tooltip - Extended)
 {
 Can Repair main structure and towers.  Can also Blink away from danger. Immune to magic attacks.
 }
 
 STRING 9518
-// Units: h000 (Peasant), Tip (Tooltip - Basic)
+// Units: h000 (Tier Zero), Tip (Tooltip - Basic)
 {
 |cffffcc00Z|r Peasant
 }
@@ -57941,7 +57956,7 @@ Learn Mass Entangling Roots - [|cffffcc00Level %d|r]
 }
 
 STRING 9579
-// Abilities: A0GG (Thunder Clap), Hotkey (Hotkey - Normal)
+// Abilities: A0H7 (Silence), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -58073,7 +58088,7 @@ STRING 9600
 }
 
 STRING 9601
-// Units: h00X (Night Elf Tier 5), Name (Name)
+// Units: z404 (Night Elf Tier 5), Name (Name)
 {
 Night Elf Tier 5
 }
@@ -58097,7 +58112,7 @@ Purge - [|cffffcc00Level 4|r]
 }
 
 STRING 9605
-// Units: h011 (Orc Tier 5), Name (Name)
+// Units: z204 (Orc Tier 5), Name (Name)
 {
 Orc Tier 5
 }
@@ -58115,13 +58130,13 @@ Calls down meteors from the sky that deal <A0DT,DataB3> damage to units in a tar
 }
 
 STRING 9608
-// Units: h00V (Human Tier 3), Tip (Tooltip - Basic)
+// Units: z102 (Human Tier 3), Tip (Tooltip - Basic)
 {
 Upgrade to Human Tier 3
 }
 
 STRING 9609
-// Units: h012 (Undead Tier 5), Name (Name)
+// Units: z304 (Undead Tier 5), Name (Name)
 {
 Undead Tier 5
 }
@@ -58139,7 +58154,7 @@ Gives all friendly units within the AoE a magic shield with <A0FI,DataC3> life. 
 }
 
 STRING 9613
-// Units: h013 (Human Tier 4), Name (Name)
+// Units: z103 (Human Tier 4), Name (Name)
 {
 Human Tier 4
 }
@@ -58151,7 +58166,7 @@ Wreaths an enemy unit in magical flames which cause <ANso,DataA2> damage per sec
 }
 
 STRING 9615
-// Units: h00W (Human Tier 1), Tip (Tooltip - Basic)
+// Units: z100 (Human Tier 1), Tip (Tooltip - Basic)
 {
 Upgrade to Human Tier 1
 }
@@ -58223,7 +58238,7 @@ Enemy units in an area of <A0B1,Area6> take <A06P,DataA6> damage per second and 
 }
 
 STRING 9627
-// Abilities: A0H7 (Silence), Hotkey (Hotkey - Normal)
+// Abilities: A0HE (Blink), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -58283,7 +58298,7 @@ GriM420
 }
 
 STRING 9637
-// Units: h00Z (Undead Tier 1), Tip (Tooltip - Basic)
+// Units: z300 (Undead Tier 1), Tip (Tooltip - Basic)
 {
 Upgrade to Undead Tier 1
 }
@@ -58313,7 +58328,7 @@ Corrupted Attack - [|cffffcc00Level 6|r]
 }
 
 STRING 9642
-// Units: h00B (Undead Tier 2), Tip (Tooltip - Basic)
+// Units: z301 (Undead Tier 2), Tip (Tooltip - Basic)
 {
 Upgrade to Undead Tier 2
 }
@@ -58393,7 +58408,7 @@ STRING 9652
 }
 
 STRING 9653
-// Units: h002 (Night Elf Tier 1), Tip (Tooltip - Basic)
+// Units: z400 (Night Elf Tier 1), Tip (Tooltip - Basic)
 {
 Upgrade to Night Elf Tier 1
 }
@@ -59531,7 +59546,7 @@ Sacrifices a friendly undead unit and converts <A00F,DataB3,%>% of its hit point
 }
 
 STRING 9840
-// Units: h003 (Orc Tier 3), Tip (Tooltip - Basic)
+// Units: z202 (Orc Tier 3), Tip (Tooltip - Basic)
 {
 Upgrade to Orc Tier 3
 }
@@ -59832,13 +59847,13 @@ STRING 9873
 }
 
 STRING 9874
-// Units: h00X (Night Elf Tier 5), Tip (Tooltip - Basic)
+// Units: z404 (Night Elf Tier 5), Tip (Tooltip - Basic)
 {
 Upgrade to Night Elf Tier 5
 }
 
 STRING 9875
-// Units: h011 (Orc Tier 5), Tip (Tooltip - Basic)
+// Units: z204 (Orc Tier 5), Tip (Tooltip - Basic)
 {
 Upgrade to Orc Tier 5
 }
@@ -59850,7 +59865,7 @@ Gnoll Assassin 2
 }
 
 STRING 9877
-// Units: h012 (Undead Tier 5), Tip (Tooltip - Basic)
+// Units: z304 (Undead Tier 5), Tip (Tooltip - Basic)
 {
 Upgrade to Undead Tier 5
 }
@@ -59862,7 +59877,7 @@ R
 }
 
 STRING 9879
-// Units: h013 (Human Tier 4), Tip (Tooltip - Basic)
+// Units: z103 (Human Tier 4), Tip (Tooltip - Basic)
 {
 Upgrade to Human Tier 4
 }
@@ -60117,11 +60132,6 @@ STRING 9914
 // Abilities: A0AR (Summon Fire Dragon), Tip (Tooltip - Normal)
 {
 Summon Fire Dragon - [|cffffcc00Level 1|r]
-}
-
-STRING 9915
-{
-Observer 6
 }
 
 STRING 9916
@@ -60450,7 +60460,7 @@ Q
 }
 
 STRING 9964
-// Abilities: A0HE (Blink), Hotkey (Hotkey - Normal)
+// Abilities: A0HU (Silence), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -61229,7 +61239,7 @@ E
 }
 
 STRING 10090
-// Abilities: A0HU (Silence), Hotkey (Hotkey - Normal)
+// Abilities: A0I0 (Healing Salve), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -62523,7 +62533,7 @@ STRING 10290
 }
 
 STRING 10291
-// Abilities: A0I0 (Healing Salve), Hotkey (Hotkey - Normal)
+// Abilities: A0I1 (Siphon Mana), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -62661,7 +62671,7 @@ Z
 }
 
 STRING 10315
-// Abilities: A0I1 (Siphon Mana), Hotkey (Hotkey - Normal)
+// Abilities: A0I2 (Mana Drain), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -63986,7 +63996,7 @@ W
 }
 
 STRING 10534
-// Abilities: A0I2 (Mana Drain), Hotkey (Hotkey - Normal)
+// Abilities: A0I7 (Corrupted Attack), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -64070,7 +64080,7 @@ E
 }
 
 STRING 10548
-// Abilities: A0I7 (Corrupted Attack), Hotkey (Hotkey - Normal)
+// Abilities: A0I7 (Corrupted Attack), Unhotkey (Hotkey - Turn Off)
 {
 X
 }
@@ -64257,7 +64267,7 @@ W
 }
 
 STRING 10578
-// Abilities: A0I7 (Corrupted Attack), Unhotkey (Hotkey - Turn Off)
+// Abilities: A0IH (Tower Defense), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -64620,13 +64630,13 @@ W
 }
 
 STRING 10650
-// Abilities: A0IH (Tower Defense), Hotkey (Hotkey - Normal)
+// Abilities: ATRA (Trample), Hotkey (Hotkey - Normal)
 {
 X
 }
 
 STRING 10651
-// Abilities: ATRA (Trample), Hotkey (Hotkey - Normal)
+// Abilities: AREA (Reap), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -64735,7 +64745,7 @@ Puts a target non-mechnical enemy to sleep. It is invulnerable and cannot act fo
 }
 
 STRING 10669
-// Abilities: AREA (Reap), Hotkey (Hotkey - Normal)
+// Abilities: ADEC (Decoy Bomb), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -65265,7 +65275,7 @@ Endurance Aura - [|cffffcc00Level 5|r]
 }
 
 STRING 10757
-// Abilities: ADEC (Decoy Bomb), Hotkey (Hotkey - Normal)
+// Abilities: AFOR (Force Field), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -65666,11 +65676,6 @@ STRING 10823
 // Abilities: A0H6 (Scroll of Haste), EditorSuffix (Editor Suffix)
 {
 (huge AoE)
-}
-
-STRING 10824
-{
-Patch (|Cfffed312F9|R)
 }
 
 STRING 10825
@@ -66820,7 +66825,7 @@ Q
 }
 
 STRING 11021
-// Abilities: AFOR (Force Field), Hotkey (Hotkey - Normal)
+// Abilities: A0IW (Drunken Haze), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -68405,13 +68410,13 @@ Z
 }
 
 STRING 11282
-// Abilities: A0IW (Drunken Haze), Hotkey (Hotkey - Normal)
+// Abilities: A0J2 (Anti-magic Shell), Hotkey (Hotkey - Normal)
 {
 X
 }
 
 STRING 11283
-// Abilities: A0J2 (Anti-magic Shell), Hotkey (Hotkey - Normal)
+// Abilities: A0FK (Incinerate), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -68716,7 +68721,7 @@ W
 }
 
 STRING 11332
-// Abilities: A0FK (Incinerate), Hotkey (Hotkey - Normal)
+// Abilities: A0J0 (Incinerate), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -69083,7 +69088,7 @@ Q
 }
 
 STRING 11396
-// Abilities: A0J0 (Incinerate), Hotkey (Hotkey - Normal)
+// Abilities: A0J6 (Incinerate), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -69818,13 +69823,13 @@ E
 }
 
 STRING 11517
-// Abilities: A0J6 (Incinerate), Hotkey (Hotkey - Normal)
+// Abilities: A0JL (Incinerate), Hotkey (Hotkey - Normal)
 {
 X
 }
 
 STRING 11518
-// Abilities: A0JL (Incinerate), Hotkey (Hotkey - Normal)
+// Abilities: A0JO (Dash), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -70435,7 +70440,7 @@ Q
 }
 
 STRING 11618
-// Abilities: A0JO (Dash), Hotkey (Hotkey - Normal)
+// Abilities: A0K4 (Inner Fire), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -71578,7 +71583,7 @@ STRING 11807
 }
 
 STRING 11808
-// Abilities: A0K4 (Inner Fire), Hotkey (Hotkey - Normal)
+// Abilities: A0K4 (Inner Fire), Unhotkey (Hotkey - Turn Off)
 {
 X
 }
@@ -71985,11 +71990,6 @@ STRING 11869
 // Abilities: A0IO (Pub Defender Multi-Shot), Name (Name)
 {
 Pub Defender Multi-Shot
-}
-
-STRING 11870
-{
-|cff00ff00Footmen Frenzy 7.8.1
 }
 
 STRING 11871
@@ -72969,11 +72969,6 @@ STRING 12032
 E
 }
 
-STRING 12033
-{
-|cffd45e19Footmen Frenzy 7.8.1
-}
-
 STRING 12034
 // Abilities: AMRD (Mirror Image), Name (Name)
 {
@@ -73002,11 +72997,6 @@ STRING 12038
 // Upgrades: R005 (Spirit Walker Adept Training,Spirit Walker Master Training), Hotkey (Hotkey)
 {
 R
-}
-
-STRING 12039
-{
-|cffff0000Footmen Frenzy 7.8.1
 }
 
 STRING 12040
@@ -73339,7 +73329,7 @@ W
 }
 
 STRING 12093
-// Abilities: A0K4 (Inner Fire), Unhotkey (Hotkey - Turn Off)
+// Upgrades: R00A (Black Gunpowder,Refined Gunpowder,Imbued Gunpowder), Hotkey (Hotkey)
 {
 X
 }
@@ -75135,12 +75125,6 @@ STRING 12381
 Mirror Image
 }
 
-STRING 12382
-// Upgrades: R00A (Black Gunpowder,Refined Gunpowder,Imbued Gunpowder), Hotkey (Hotkey)
-{
-X
-}
-
 STRING 12383
 // Abilities: AFFD (Detonate), Name (Name)
 {
@@ -76235,11 +76219,6 @@ Claws of Ultimate Devastation
 |cffffcc00Total Cost:|r 4300
 }
 
-STRING 12537
-{
-Main Menu Dialog
-}
-
 STRING 12538
 // Units: H036 (Soviet Sniper), Ubertip (Tooltip - Extended)
 {
@@ -77064,7 +77043,7 @@ STRING 12642
 }
 
 STRING 12643
-// Units: h00C (Orc Tier 2), Ubertip (Tooltip - Extended)
+// Units: z201 (Orc Tier 2), Ubertip (Tooltip - Extended)
 {
 |cff808080Spawned Units:|r Berserker (|cff00ffffRanged|r |cff88ff88Unarmored|r / |cffffff00Pierce) |n|cff808080Health:|r 640
 |cff808080Spawn Interval:|r 6s
@@ -77072,7 +77051,7 @@ STRING 12643
 }
 
 STRING 12644
-// Units: h00D (Night Elf Tier 2), Ubertip (Tooltip - Extended)
+// Units: z401 (Night Elf Tier 2), Ubertip (Tooltip - Extended)
 {
 |cff808080Spawned Units:|r Huntress (|cff00ffffRanged|r Normal / |cffffff00Medium|r)|n|cff808080Health:|r 650
 |cff808080Spawn Interval:|r 9s
@@ -77080,23 +77059,15 @@ STRING 12644
 }
 
 STRING 12645
-// Units: h00G (Human Tier 2), Ubertip (Tooltip - Extended)
+// Units: z101 (Human Tier 2), Ubertip (Tooltip - Extended)
 {
 |cff808080Spawned Units:|r Milita (|cffffcc00Melee|r Normal / |cffffff00Medium|r) |n|cff808080Health:|r 885
 |cff808080Spawn Interval:|r 6s
 
 }
 
-STRING 12646
-// Units: h00H (Orc Tier 1), Ubertip (Tooltip - Extended)
-{
-|cff808080Spawned Units:|r Headhunter (|cff00ffffRanged|r |cffffff00Pierce / Medium|r) |n|cff808080Health:|r 535
-|cff808080Spawn Interval:|r 9s
-
-}
-
 STRING 12647
-// Units: h00I (Undead Tier 3), Ubertip (Tooltip - Extended)
+// Units: z302 (Undead Tier 3), Ubertip (Tooltip - Extended)
 {
 |cff808080Spawned Units:|r Skeletal Mage (|cff00ffffRanged|r |cffffff00Pierce / Medium|r)|cff808080Health:|r 730
 |cff808080Spawn Interval:|r 6s
@@ -77106,7 +77077,7 @@ STRING 12647
 }
 
 STRING 12648
-// Units: h00J (Night Elf Tier 3), Ubertip (Tooltip - Extended)
+// Units: z402 (Night Elf Tier 3), Ubertip (Tooltip - Extended)
 {
 |cff808080Spawned Units:|r Druid  (|cff00ffffRanged|r |cffffff00Pierce / Medium|r)|n|cff808080Health:|r 720
 |cff808080Spawn Interval:|r 6s
@@ -77114,21 +77085,21 @@ STRING 12648
 }
 
 STRING 12649
-// Units: h00L (Night Elf Tier 4), Ubertip (Tooltip - Extended)
+// Units: z403 (Night Elf Tier 4), Ubertip (Tooltip - Extended)
 {
 |cff808080Spawned Units:|r Dryad  (|cff00ffffRanged|r Normal / |cffffff00Medium|r) |n|cff808080Health:|r 900
 |cff808080Spawn Interval:|r 8s
 }
 
 STRING 12650
-// Units: h00M (Orc Tier 4), Ubertip (Tooltip - Extended)
+// Units: z203 (Orc Tier 4), Ubertip (Tooltip - Extended)
 {
 |cff808080Spawned Units:|r Tauren (|cffffcc00Melee|r Normal / |cffffcc00Heavy|r) |n|cff808080Health:|r 1575
 |cff808080Spawn Interval:|r 9s
 }
 
 STRING 12651
-// Units: h00N (Undead Tier 4), Ubertip (Tooltip - Extended)
+// Units: z303 (Undead Tier 4), Ubertip (Tooltip - Extended)
 {
 |cff808080Spawned Units:|r Abomination (|cffffcc00Melee|r Normal / |cffffcc00Heavy|r)|n|cff808080Health:|r 1600
 |cff808080Spawn Interval:|r 8s
@@ -77136,7 +77107,7 @@ STRING 12651
 }
 
 STRING 12652
-// Units: h00O (Human Tier 5), Ubertip (Tooltip - Extended)
+// Units: z105 (Human Tier 5), Ubertip (Tooltip - Extended)
 {
 |cff808080Spawned Units:|r Dark Knight (|cffffcc00Melee|r Normal / |cffffcc00Heavy|r) |n|cff808080Health:|r 1500
 |cff808080Spawn Interval:|r 8s
@@ -77144,14 +77115,14 @@ STRING 12652
 }
 
 STRING 12653
-// Units: h00V (Human Tier 3), Ubertip (Tooltip - Extended)
+// Units: z102 (Human Tier 3), Ubertip (Tooltip - Extended)
 {
 |cff808080Spawned Units:|r Spellbreaker (|cff00ffffRanged|r Normal / |cff88ff88Unarmored|r) |n|cff808080Health:|r 625
 |cff808080Spawn Interval:|r 6s
 }
 
 STRING 12654
-// Units: h00W (Human Tier 1), Ubertip (Tooltip - Extended)
+// Units: z100 (Human Tier 1), Ubertip (Tooltip - Extended)
 {
 |cff808080Spawned Units:|r Riflemen (|cff00ffffRanged|r Normal / |cffffff00Medium|r)|n|cff808080Health:|r 530
 |cff808080Spawn Interval:|r 9s
@@ -77159,14 +77130,14 @@ STRING 12654
 }
 
 STRING 12655
-// Units: h00Z (Undead Tier 1), Ubertip (Tooltip - Extended)
+// Units: z300 (Undead Tier 1), Ubertip (Tooltip - Extended)
 {
 |cff808080Spawned Units:|r Skeleton Warriors (|cff00ffffRanged |cffffff00Pierce|r / |cff8888ffLight|r)|n|cff808080Health:|r 580
 |cff808080Spawn Interval:|r 6s
 }
 
 STRING 12656
-// Units: h00B (Undead Tier 2), Ubertip (Tooltip - Extended)
+// Units: z301 (Undead Tier 2), Ubertip (Tooltip - Extended)
 {
 |cff808080Spawned Units:|r Crypt Fiend (|cff00ffffRanged|r |cffffff00Pierce / Medium|r)|cff808080Health:|r 685
 |cff808080Spawn Interval:|r 8s
@@ -77174,7 +77145,7 @@ STRING 12656
 }
 
 STRING 12657
-// Units: h002 (Night Elf Tier 1), Ubertip (Tooltip - Extended)
+// Units: z400 (Night Elf Tier 1), Ubertip (Tooltip - Extended)
 {
 |cff808080Spawned Units:|r Archer (|cff00ffffRanged|r |cffffff00Pierce / Medium|r)|n|cff808080Health:|r 535
 |cff808080Spawn Interval:|r 8s
@@ -77182,7 +77153,7 @@ STRING 12657
 }
 
 STRING 12658
-// Units: h003 (Orc Tier 3), Ubertip (Tooltip - Extended)
+// Units: z202 (Orc Tier 3), Ubertip (Tooltip - Extended)
 {
 |cff808080Spawned Units:|r Raiders (|cffffcc00Melee|r Normal / |cffffcc00Heavy|r) |n|cff808080Health:|r 885
 |cff808080Spawn Interval:|r 8s
@@ -77190,7 +77161,7 @@ STRING 12658
 }
 
 STRING 12659
-// Units: h00X (Night Elf Tier 5), Ubertip (Tooltip - Extended)
+// Units: z404 (Night Elf Tier 5), Ubertip (Tooltip - Extended)
 {
 |cff808080Spawned Units:|r Dark Dryad ( |cff00ffffRanged|r Normal / |cffffcc00Heavy|r)|n|cff808080Health:|r 1500
 |cff808080Spawn Interval:|r 8s
@@ -77198,14 +77169,14 @@ STRING 12659
 }
 
 STRING 12660
-// Units: h011 (Orc Tier 5), Ubertip (Tooltip - Extended)
+// Units: z204 (Orc Tier 5), Ubertip (Tooltip - Extended)
 {
 |cff808080Spawned Units:|r Dark Tauren (|cffffcc00Melee|r Normal / |cffffcc00Heavy|r) |n|cff808080Health:|r 1500
 |cff808080Spawn Interval:|r 9s
 }
 
 STRING 12661
-// Units: h012 (Undead Tier 5), Ubertip (Tooltip - Extended)
+// Units: z304 (Undead Tier 5), Ubertip (Tooltip - Extended)
 {
 |cff808080Spawned Units:|r Dark Abomination (|cffffcc00Melee|r Normal / |cffffcc00Heavy|r)|cff808080Health:|r 1500
 |cff808080Spawn Interval:|r 8s
@@ -77213,7 +77184,7 @@ STRING 12661
 }
 
 STRING 12662
-// Units: h013 (Human Tier 4), Ubertip (Tooltip - Extended)
+// Units: z103 (Human Tier 4), Ubertip (Tooltip - Extended)
 {
 |cff808080Spawned Units:|r Knight (|cffffcc00Melee|r Normal / |cffffcc00Heavy|r) |n|cff808080Health:|r 1500
 |cff808080Spawn Interval:|r 8s
