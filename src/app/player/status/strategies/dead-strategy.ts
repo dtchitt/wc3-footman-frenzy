@@ -1,6 +1,6 @@
-import { ActivePlayer } from '../../types/active-player';
+import { HumanPlayer } from '../../types/human-player';
 import { StatusStrategy } from './status-strategy';
 
 export class DeadStrategy implements StatusStrategy {
-	run(gamePlayer: ActivePlayer): void {}
+	run(gamePlayer: HumanPlayer): void {}
 }

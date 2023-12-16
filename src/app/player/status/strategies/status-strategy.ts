@@ -1,5 +1,5 @@
-import { ActivePlayer } from '../../types/active-player';
+import { HumanPlayer } from '../../types/human-player';
 
 export interface StatusStrategy {
-	run: (gamePlayer: ActivePlayer) => void;
+	run: (gamePlayer: HumanPlayer) => void;
 }

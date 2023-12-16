@@ -1,4 +1,4 @@
-import { ActivePlayer } from '../types/active-player';
+import { HumanPlayer } from '../types/human-player';
 import { PLAYER_STATUS } from './status-enum';
 import { AliveStrategy } from './strategies/alive-strategy';
 import { DeadStrategy } from './strategies/dead-strategy';
@@ -6,7 +6,7 @@ import { LeftStrategy } from './strategies/left-strategy';
 import { StatusStrategy } from './strategies/status-strategy';
 
 export class Status {
-	private player: ActivePlayer;
+	private player: HumanPlayer;
 	private status: PLAYER_STATUS;
 
 	private static readonly STRATEGY_MAP: Map<PLAYER_STATUS, StatusStrategy> = new Map([
@@ -15,7 +15,7 @@ export class Status {
 		[PLAYER_STATUS.LEFT, new LeftStrategy()],
 	]);
 
-	constructor(player: ActivePlayer) {
+	constructor(player: HumanPlayer) {
 		this.player = player;
 	}
 
