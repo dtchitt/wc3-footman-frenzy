@@ -16,53 +16,26 @@ export class TimedEventManager {
 		});
 	}
 
-	/**
-	 * Gets the Timed Event Manager.
-	 * @returns The singleton instance.
-	 */
 	public static getInstance(): TimedEventManager {
 		if (!TimedEventManager.instance) {
 			TimedEventManager.instance = new TimedEventManager();
 		}
-
 		return TimedEventManager.instance;
 	}
 
-	/**
-	 * Registers a new timed event.
-	 * @param duration - Duration after which the event triggers.
-	 * @param callback - Function to call when the event triggers.
-	 * @returns The created TimedEvent object.
-	 */
-	public registerTimedEvent(duration: number, callback: () => void): TimedEvent {
-		const event = new TimedEvent(duration, callback);
-		this.timedEvents.add(event);
-
-		return event;
+	public addTimedEvent(timedEvent: TimedEvent): void {
+		this.timedEvents.add(timedEvent);
 	}
 
-	/**
-	 * Removes a timed event.
-	 * @param timedEvent - The timed event to remove.
-	 */
 	public removeTimedEvent(timedEvent: TimedEvent): void {
 		this.timedEvents.delete(timedEvent);
 	}
 
-	/**
-	 * Called every tick to update timed events and execute any that have expired.
-	 */
 	private onTick(): void {
-		const expiredEvents: TimedEvent[] = [];
-
 		this.timedEvents.forEach((event) => {
-			event.execute();
-
 			if (event.tick()) {
-				expiredEvents.push(event);
+				this.timedEvents.delete(event);
 			}
 		});
-
-		expiredEvents.forEach((event) => this.timedEvents.delete(event));
 	}
 }

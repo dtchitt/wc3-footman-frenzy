@@ -4,6 +4,9 @@ export const PLAYERS_ALLOWED: number = 12;
 /** The number of player slots in the game, excluding neutral players. */
 export const ALL_PLAYER_SLOTS: number = 24;
 
+/** The direction a unit faces by default when being created. */
+export const DEFAULT_FACING_VALUE: number = 270;
+
 /** The player object for neutral hostile units. */
 export const NEUTRAL_HOSTILE: player = Player(PLAYER_NEUTRAL_AGGRESSIVE);
 /**
@@ -44,4 +47,14 @@ export function ComputeRatio(dividend: number, divisor: number): string {
 	if (dividend === 0) return (-divisor).toFixed(2);
 
 	return (dividend / divisor).toFixed(2);
+}
+
+/**
+ * Removes fog for a player within a specific region.
+ * @param player the player to remove fog for
+ * @param rect the rect to remove the fog in
+ */
+export function RemoveFogFromArea(player: player, rect: rect) {
+	const fogMod: fogmodifier = CreateFogModifierRect(player, FOG_OF_WAR_VISIBLE, rect, false, false);
+	FogModifierStart(fogMod);
 }

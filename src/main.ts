@@ -1,7 +1,6 @@
 import { W3TS_HOOK, addScriptHook } from 'w3ts/hooks';
 import { GameStateManager } from './app/game/game-state-manager';
 import { CameraManager } from './app/camera/camera-manager';
-import { ChatManager } from './app/commands/chat-manager';
 import { Quests } from './app/libs/quests';
 import { NameManager } from './app/names/name-manager';
 import { AntiCheat } from './app/libs/anti-cheat';
@@ -11,9 +10,6 @@ import { TimedEventManager } from './app/timer/timed-event-manager';
 
 function tsMain() {
 	try {
-		//print(`Build Version: ${MAP_VERSION}`);
-		//Set up actions on game load
-
 		const onLoadTimer: timer = CreateTimer();
 
 		TimerStart(onLoadTimer, 0.0, false, () => {
@@ -23,8 +19,6 @@ function tsMain() {
 			SetMapFlag(MAP_LOCK_SPEED, true);
 			SetMapFlag(MAP_USE_HANDICAPS, false);
 			SetMapFlag(MAP_LOCK_ALLIANCE_CHANGES, true);
-			// SetTimeOfDay(12.0);
-			// SetTimeOfDayScale(0.0);
 			FogEnable(true);
 			FogMaskEnable(true);
 

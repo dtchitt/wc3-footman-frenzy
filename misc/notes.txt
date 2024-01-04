@@ -1,0 +1,41 @@
+Game Type:
+Standard
+King of the Hill
+
+Allow Transmute Heros: Y/N
+
+Promode: Y/N
+
+
+
+
+Human
+Riflemen
+Millita
+Spell Breaker
+Knight
+Darkknight
+
+Orc
+Headhunter
+Berseker
+Raider
+Tauren
+
+Undead
+Skeleton Axethrower
+Crypt Fiend
+Skeltal Mage
+Abomination
+
+NightElf
+Archers
+Huntress
+Druid
+Dryad
+
+Elitian
+Bansee
+Wraith
+Warlock
+Mortor Bomber

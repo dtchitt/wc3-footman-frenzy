@@ -12,7 +12,6 @@ export class MetaGame implements TransitionableGameState {
 
 	public start(): void {
 		print('MetaGame started');
-
 		this.end();
 	}
 

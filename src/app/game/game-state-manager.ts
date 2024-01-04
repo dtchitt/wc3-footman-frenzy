@@ -1,5 +1,6 @@
 import { GameState } from './states/game-state';
 import { HeroSelection } from './states/hero-selection';
+import { InitializationState } from './states/initialization-state';
 import { MetaGame } from './states/meta-game';
 import { ModeSelection } from './states/mode-selection';
 import { PostGame } from './states/post-game';
@@ -10,18 +11,20 @@ export class GameStateManager {
 	private static instance: GameStateManager;
 
 	private constructor() {
+		const initializationState = new InitializationState(this);
 		const modeSelection = new ModeSelection(this);
 		const heroSelection = new HeroSelection(this);
 		const preGame = new PreGame(this);
 		const metaGame = new MetaGame(this);
 		const postGame = new PostGame();
 
+		initializationState.setNextState(modeSelection);
 		modeSelection.setNextState(heroSelection);
 		heroSelection.setNextState(preGame);
 		preGame.setNextState(metaGame);
 		metaGame.setNextState(postGame);
 
-		this.currentState = modeSelection;
+		this.currentState = initializationState;
 	}
 
 	public static getInstance(): GameStateManager {

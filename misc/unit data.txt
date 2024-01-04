@@ -1,0 +1,137 @@
+// Footmen
+set udg_unit_armor_type[0] = 2
+
+// Knight
+set udg_unit_armor_type[1] = 2
+
+// Dark Knight
+set udg_unit_armor_type[2] = 2
+
+// Archer
+set udg_unit_armor_type[3] = 1
+
+// Dryad
+set udg_unit_armor_type[4] = 1
+
+// Dark Dryad
+set udg_unit_armor_type[5] = 2
+
+// Raider
+set udg_unit_armor_type[6] = 2
+
+// Abomination
+set udg_unit_armor_type[7] = 2
+
+// Dark Abomination
+set udg_unit_armor_type[8] = 2
+
+// Crypt Fiend
+set udg_unit_armor_type[13] = 1
+
+// Spellbreaker
+set udg_unit_armor_type[14] = 7
+
+// Druid of Talon
+set udg_unit_armor_type[15] = 1
+
+// Berserker
+set udg_unit_armor_type[16] = 1
+
+// Skeleton Warrior
+set udg_unit_armor_type[17] = 0
+
+// Milita
+set udg_unit_armor_type[18] = 1
+
+// Skeletal Mage
+set udg_unit_armor_type[19] = 1
+
+// Riflemen
+set udg_unit_armor_type[21] = 1
+
+// Huntress
+set udg_unit_armor_type[22] = 1
+
+// Headhunter
+set udg_unit_armor_type[23] = 1
+
+// Tauren
+set udg_unit_armor_type[24] = 2
+
+// Dark Tauren
+set udg_unit_armor_type[25] = 2
+
+// Banshee
+set udg_spawn_unit[9] = 'uban'
+set udg_unit_HP[9] = 535
+set udg_unit_armor_type[9] = 1
+set udg_unit_armor[9] = 0
+set udg_unit_att_base[9] = 33
+set udg_unit_att_num_dice[9] = 1
+set udg_unit_att_dice_sides[9] = 4
+set udg_unit_att_CD[9] = 1.2
+set udg_unit_bounty_base[9] = 36
+set udg_unit_bounty_num_dice[9] = 1
+set udg_unit_bounty_dice_sides[9] = 4
+set udg_unit_range[9] = 630
+set udg_unit_level[9] = 2
+
+// Warlock
+set udg_spawn_unit[10] = 'n04X'
+set udg_unit_HP[10] = 540
+set udg_unit_armor_type[10] = 1
+set udg_unit_armor[10] = 1
+set udg_unit_att_base[10] = 33
+set udg_unit_att_num_dice[10] = 1
+set udg_unit_att_dice_sides[10] = 2
+set udg_unit_att_CD[10] = 1.4
+set udg_unit_bounty_base[10] = 43
+set udg_unit_bounty_num_dice[10] = 1
+set udg_unit_bounty_dice_sides[10] = 4
+set udg_unit_range[10] = 635
+set udg_unit_level[10] = 3
+
+// Mortat Bombers
+set udg_spawn_unit[11] = 'hdhw'
+set udg_unit_HP[11] = 700
+set udg_unit_armor_type[11] = 2
+set udg_unit_armor[11] = 1
+set udg_unit_att_base[11] = 42
+set udg_unit_att_num_dice[11] = 1
+set udg_unit_att_dice_sides[11] = 2
+set udg_unit_att_CD[11] = 1.3
+set udg_unit_bounty_base[11] = 55
+set udg_unit_bounty_num_dice[11] = 1
+set udg_unit_bounty_dice_sides[11] = 6
+set udg_unit_range[11] = 735
+set udg_unit_level[11] = 4
+
+// Dark Mortar Bombers
+set udg_spawn_unit[12] = 'h018'
+set udg_unit_HP[12] = 1500
+set udg_unit_armor_type[12] = 2
+set udg_unit_armor[12] = 8
+set udg_unit_att_base[12] = 101
+set udg_unit_att_num_dice[12] = 1
+set udg_unit_att_dice_sides[12] = 2
+set udg_unit_att_CD[12] = 1
+set udg_unit_bounty_base[12] = 95
+set udg_unit_bounty_num_dice[12] = 1
+set udg_unit_bounty_dice_sides[12] = 6
+set udg_unit_range[12] = 740
+set udg_unit_level[12] = 6
+
+// Wraith
+set udg_spawn_unit[20] = 'ngh2'
+set udg_unit_HP[20] = 640
+set udg_unit_armor_type[20] = 2
+set udg_unit_armor[20] = 0
+set udg_unit_att_base[20] = 39
+set udg_unit_att_num_dice[20] = 1
+set udg_unit_att_dice_sides[20] = 3
+set udg_unit_att_CD[20] = 1.2
+set udg_unit_bounty_base[20] = 38
+set udg_unit_bounty_num_dice[20] = 1
+set udg_unit_bounty_dice_sides[20] = 5
+set udg_unit_range[20] = 660
+set udg_unit_level[20] = 3
