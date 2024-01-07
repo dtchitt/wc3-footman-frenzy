@@ -8,7 +8,7 @@ export class GamePlayer extends EntityData {
 	private player: player;
 	private status: Status;
 	private enclave: Enclave;
-	private spawnedUnits: unit[];
+	private spawns: Set<unit>;
 	private hero: unit;
 
 	constructor(player: player) {
@@ -16,20 +16,25 @@ export class GamePlayer extends EntityData {
 		this.player = player;
 		this.status = new Status(this);
 		this.enclave = new Enclave(player);
-		this.spawnedUnits = [];
+		this.spawns = new Set<unit>();
+
+		const startLocNumber: number = GetPlayerStartLocation(player);
+
 		try {
 			SpawnManager.getInstance().updateSpawnForPlayer({
 				player: this.player,
 				interval: 6,
 				unit: SPAWNED_UNITS.TIER_ZERO_FOOTMAN,
 				quantity: 1,
+				x: GetStartLocationX(startLocNumber),
+				y: GetStartLocationY(startLocNumber),
 			});
 		} catch (error) {
 			print(error);
 		}
 	}
 
-	public getPlayer(): player {
+	public getHandle(): player {
 		return this.player;
 	}
 
@@ -44,7 +49,7 @@ export class GamePlayer extends EntityData {
 	}
 
 	public setEndData() {
-		const handle: player = this.getPlayer();
+		const handle: player = this.getHandle();
 
 		if (handle == GetLocalPlayer()) {
 			EnableSelect(false, false);
@@ -54,5 +59,17 @@ export class GamePlayer extends EntityData {
 
 	public getStatus(): Status {
 		return this.status;
+	}
+
+	public addSpawn(unit: unit) {
+		this.spawns.add(unit);
+	}
+
+	public removeSpawn(unit: unit) {
+		this.spawns.delete(unit);
+	}
+
+	public getSpawns(): Set<unit> {
+		return this.spawns;
 	}
 }

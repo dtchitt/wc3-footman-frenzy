@@ -52,4 +52,8 @@ export class PlayerManager {
 		RemoveFogFromArea(player, gg_rct_T3_COMPLETE);
 		RemoveFogFromArea(player, gg_rct_T4_COMPLETE);
 	}
+
+	public getPlayers(): GamePlayer[] {
+		return [...this.players.values()];
+	}
 }
