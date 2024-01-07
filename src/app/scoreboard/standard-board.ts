@@ -3,13 +3,14 @@ import { HexColors } from '../utils/hex-colors';
 import { Scoreboard } from './scoreboard';
 
 export class StandardBoard extends Scoreboard {
+	private teams: Alliance[];
 	private readonly TEAM_COL: number = 1;
 	private readonly UNIT_KILLS_COL: number = 2;
 	private readonly HERO_KILLS_COL: number = 3;
 
 	public constructor(teams: Alliance[]) {
-		super(teams);
-
+		super();
+		this.teams = teams;
 		this.size = this.teams.length + 1;
 
 		MultiboardSetColumnCount(this.board, 3);
@@ -24,7 +25,7 @@ export class StandardBoard extends Scoreboard {
 		this.setItemValue(`${HexColors.TANGERINE}Team|r`, 1, this.TEAM_COL);
 		this.setItemValue(`${HexColors.TANGERINE}Unit Kills|r`, 1, this.UNIT_KILLS_COL);
 		this.setItemValue(`${HexColors.TANGERINE}Hero Kills|r`, 1, this.HERO_KILLS_COL);
-		this.update();
+		this.updateData();
 		MultiboardSetItemsStyle(this.board, true, false);
 		MultiboardMinimize(this.board, true);
 		MultiboardMinimize(this.board, false);
@@ -34,7 +35,7 @@ export class StandardBoard extends Scoreboard {
 	/**
 	 * Updates every column on the scoreboard.
 	 */
-	public update(): void {
+	public updateData(): void {
 		let row: number = 2;
 
 		this.teams.forEach((team) => {

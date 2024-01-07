@@ -1,29 +1,48 @@
-export abstract class TimedEvent {
-	protected _duration: number;
-	protected callback: Function;
+/**
+ * Represents a single timed event that executes a callback after a specified duration.
+ */
+export class TimedEvent {
+	private duration: number;
+	private callback: Function;
 
-	constructor(duration: number, eventCallback: () => void) {
-		this._duration = duration;
+	/**
+	 * Creates a new TimedEvent.
+	 * @param duration - The number of ticks before the event triggers.
+	 * @param eventCallback - The function to execute when the event triggers.
+	 */
+	public constructor(duration: number, eventCallback: () => void) {
+		this.duration = duration;
 		this.callback = eventCallback;
 	}
 
+	/**
+	 * Reduces the remaining duration by 1 and checks if the event is expired.
+	 * @returns A boolean indicating if the event has expired.
+	 */
 	public tick(): boolean {
-		this.updateDuration();
-		if (this.shouldExecute()) {
-			this.execute();
-		}
+		this.duration--;
 		return this.isExpired();
 	}
 
-	protected abstract updateDuration(): void;
-
-	protected abstract shouldExecute(): boolean;
-
+	/**
+	 * Executes the callback function of this event.
+	 */
 	public execute(): void {
 		this.callback();
 	}
 
-	protected isExpired(): boolean {
-		return this._duration <= 0;
+	/**
+	 * Checks if the event is expired.
+	 * @returns A boolean indicating if the event has expired.
+	 */
+	private isExpired(): boolean {
+		return this.duration <= 0;
+	}
+
+	/**
+	 * @returns The remaining duration before the event triggers.
+	 */
+	public getDuration(): number {
+		return this.duration;
 	}
 }

@@ -3,4 +3,6 @@ export interface SpawnData {
 	interval: number;
 	unit: number;
 	quantity: number;
+	x: number;
+	y: number;
 }

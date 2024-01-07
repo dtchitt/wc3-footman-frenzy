@@ -17,6 +17,8 @@ export class PreGame implements TransitionableGameState {
 		Scoreboards.push(new StandardBoard(AllianceManager.getInstance().getTeams()));
 		Scoreboards[0].setVisibility(true);
 
+		//Create initial spawns
+		//Set up tech/KOTH/mass timers
 		this.end();
 	}
 

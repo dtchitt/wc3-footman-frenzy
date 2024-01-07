@@ -13,12 +13,19 @@ export class HeroSelection implements TransitionableGameState {
 	public start(): void {
 		print('HeroSelection started');
 
-		this.end();
+		//TODO hero selection UI
+		print(`Hero timer`);
+		const heroTimer: timer = CreateTimer();
+
+		TimerStart(heroTimer, 3, false, () => {
+			print('Game Starting');
+
+			this.end();
+		});
 	}
 
 	public end(): void {
-		print('HeroSelection ended');
-
+		print('end hero timer');
 		this.manager.setState(this.nextState);
 	}
 

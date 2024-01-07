@@ -1,17 +1,14 @@
-import { PersistentExpiryTimedEvent } from '../timer/persistent-expiry-timed-event';
 import { TimedEvent } from '../timer/timed-event';
 import { TimedEventManager } from '../timer/timed-event-manager';
 import { SpawnData } from './spawn-data';
 
 export class SpawnManager {
-	private spawnData: Map<player, SpawnData>;
 	private spawnEvent: Map<player, TimedEvent>;
 	private eventManager: TimedEventManager;
 
 	private static instance: SpawnManager;
 
 	private constructor() {
-		this.spawnData = new Map<player, SpawnData>();
 		this.spawnEvent = new Map<player, TimedEvent>();
 		this.eventManager = TimedEventManager.getInstance();
 	}
@@ -29,17 +26,6 @@ export class SpawnManager {
 		this.addSpawn(data);
 	}
 
-	private addSpawn(spawnData: SpawnData) {
-		this.spawnData.set(spawnData.player, spawnData);
-
-		const event = new PersistentExpiryTimedEvent(spawnData.interval, () => {
-			this.spawnUnit(spawnData);
-		});
-
-		this.eventManager.addTimedEvent(event);
-		this.spawnEvent.set(spawnData.player, event);
-	}
-
 	private removeSpawn(player: player) {
 		const event = this.spawnEvent.get(player);
 
@@ -47,13 +33,26 @@ export class SpawnManager {
 			this.eventManager.removeTimedEvent(event);
 			this.spawnEvent.delete(player);
 		}
+	}
 
-		this.spawnData.delete(player);
+	private addSpawn(spawnData: SpawnData) {
+		const event: TimedEvent = this.eventManager.registerTimedEvent(spawnData.interval, () => {
+			if (event.getDuration() <= 1) {
+				this.spawnUnit(spawnData);
+			}
+		});
+
+		this.spawnEvent.set(spawnData.player, event);
 	}
 
 	private spawnUnit(data: SpawnData) {
-		const startLocNumber: number = GetPlayerStartLocation(data.player);
+		if (GetPlayerSlotState(data.player) != PLAYER_SLOT_STATE_PLAYING) return;
+		//TODO check if player is defeated, return if so
 
-		CreateUnit(data.player, data.unit, GetStartLocationX(startLocNumber), GetStartLocationY(startLocNumber), 270.0);
+		for (let i = 0; i < data.quantity; i++) {
+			CreateUnit(data.player, data.unit, data.x, data.y, 270.0);
+		}
+
+		this.updateSpawnForPlayer(data);
 	}
 }

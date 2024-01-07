@@ -1,32 +1,20 @@
-import { Alliance } from '../entity/alliance/alliance';
 import { MAP_NAME } from '../utils/map-info';
 
 export abstract class Scoreboard {
 	protected board: multiboard;
-	protected teams: Alliance[];
 	protected size: number;
 
-	public constructor(aPlayers: Alliance[]) {
-		this.build(aPlayers);
-	}
-
-	abstract update(): void;
-
-	/**
-	 * Builds the scoreboard.
-	 * @param {Alliance[]} teams - An array of entities.
-	 */
-	public build(teams: Alliance[]) {
+	public constructor() {
 		this.board = CreateMultiboard();
-		this.teams = teams;
 		this.setTitle(`${MAP_NAME}`);
 	}
+
+	abstract updateData(): void;
 
 	/**
 	 * Destroys the scoreboard.
 	 */
 	public destory() {
-		this.teams = [];
 		DestroyMultiboard(this.board);
 		this.board = null;
 	}
