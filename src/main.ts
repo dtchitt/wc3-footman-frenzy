@@ -19,6 +19,7 @@ function tsMain() {
 			SetMapFlag(MAP_LOCK_SPEED, true);
 			SetMapFlag(MAP_USE_HANDICAPS, false);
 			SetMapFlag(MAP_LOCK_ALLIANCE_CHANGES, true);
+			BlzLoadTOCFile('war3mapimported\\footman.toc');
 			FogEnable(true);
 			FogMaskEnable(true);
 
