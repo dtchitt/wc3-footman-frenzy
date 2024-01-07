@@ -6714,13 +6714,13 @@ STRING 1094
 }
 
 STRING 1095
-// Units: z220 (Headhunter), Ubertip (Tooltip - Extended)
+// Units: ohun (Headhunter), Ubertip (Tooltip - Extended)
 {
 Basic Ranged attacker. |n|n|cffffcc00Attacks land and air units.|r 
 }
 
 STRING 1096
-// Units: z221 (Berserker), Ubertip (Tooltip - Extended)
+// Units: otbk (Berserker), Ubertip (Tooltip - Extended)
 {
 Versatile spear-thrower, effective against air units. Has the Berserk ability, which allows it to deal more damage, but take more damage when attacked.|n|n|cffffcc00Attacks land and air units.|r 
 }
@@ -6732,19 +6732,19 @@ Allows the caster to become invisible, and move <A03Z,DataB1,%>% faster. If the 
 }
 
 STRING 1098
-// Units: z222 (Raider), Ubertip (Tooltip - Extended)
+// Units: orai (Raider), Ubertip (Tooltip - Extended)
 {
 Highly mobile wolf rider. Has the Beserk and Pillage abilities.|n|n|cffffcc00Attacks land units.|r
 }
 
 STRING 1099
-// Units: z224 (Dark Tauren), Ubertip (Tooltip - Extended)
+// Units: otau (Tauren), Ubertip (Tooltip - Extended)
 {
 Mighty warrior. Has the Berserk and Pulverize abilities.|n|n|cffffcc00Attacks land units.|r
 }
 
 STRING 1100
-// Units: z322 (Skeletal Mage), Ubertip (Tooltip - Extended)
+// Units: uskm (Skeletal Mage), Ubertip (Tooltip - Extended)
 {
 Skeletal mage. Has the Cannibalize ability.|n|n|cffffcc00Attacks land and air units.|r
 }
@@ -6798,13 +6798,13 @@ Incinerate - [|cffffcc00Level 4|r]
 }
 
 STRING 1109
-// Units: z322 (Skeletal Mage), EditorSuffix (Name - Editor Suffix)
+// Units: uskm (Skeletal Mage), EditorSuffix (Name - Editor Suffix)
 {
 (UD Tier 3)
 }
 
 STRING 1110
-// Units: z323 (Abomination), Ubertip (Tooltip - Extended)
+// Units: uabo (Abomination), Ubertip (Tooltip - Extended)
 {
 Heavy melee unit. Has the Cannibalize ability. |n|n|cffffcc00Attacks land units.|r
 }
@@ -6828,19 +6828,19 @@ STRING 1113
 }
 
 STRING 1114
-// Units: z321 (Crypt Fiend), Ubertip (Tooltip - Extended)
+// Units: ucry (Crypt Fiend), Ubertip (Tooltip - Extended)
 {
 Ranged combat support creature. Has the Web and Cannibalize abilities.|n|n|cffffcc00Attacks land units.|r
 }
 
 STRING 1115
-// Units: z420 (Archer), Ubertip (Tooltip - Extended)
+// Units: earc (Archer), Ubertip (Tooltip - Extended)
 {
 Basic long-ranged attacker. Has the Shadow Meld ability.|n|n|cffffcc00Attacks land and air units.|r
 }
 
 STRING 1116
-// Units: z421 (Huntress), Ubertip (Tooltip - Extended)
+// Units: esen (Huntress), Ubertip (Tooltip - Extended)
 {
 Agile short-ranged warrior. Has the Shadow Meld ability. |n|n|cffffcc00Attacks land units.|r
 }
@@ -6921,6 +6921,18 @@ STRING 1129
 // Abilities: A00I (Abolish Magic (Shadow Priest)), Name (Name)
 {
 Abolish Magic (Shadow Priest)
+}
+
+STRING 1130
+// Destructibles: B001 (Pathing Blocker (Both) (6x10)), Name (Name)
+{
+Pathing Blocker (Both) (6x10)
+}
+
+STRING 1131
+// Destructibles: B001 (Pathing Blocker (Both) (6x10)), EditorSuffix (Editor Suffix)
+{
+Vertical
 }
 
 STRING 1134
@@ -9192,7 +9204,7 @@ STRING 1517
 }
 
 STRING 1518
-// Units: ucry (Crypt Fiend), Ubertip (Tooltip - Extended)
+// Units: u00G (Crypt Fiend), Ubertip (Tooltip - Extended)
 {
 Ranged combat support creature. Has the Web and Cannibalize abilities.|n|n|cffffcc00Attacks land units.|r
 }
@@ -12112,7 +12124,7 @@ Charges in the targetted direction and creates 6 Explosions that deal <A07W,Data
 }
 
 STRING 2033
-// Units: uskm (Skeletal Mage), EditorSuffix (Name - Editor Suffix)
+// Units: z322 (Skeletal Mage), EditorSuffix (Name - Editor Suffix)
 {
 (UD Tier 3)
 }
@@ -40258,7 +40270,7 @@ STRING 6735
 }
 
 STRING 6736
-// Units: u00G (Crypt Fiend), Ubertip (Tooltip - Extended)
+// Units: z321 (Crypt Fiend), Ubertip (Tooltip - Extended)
 {
 Ranged combat support creature. Has the Web and Cannibalize abilities.|n|n|cffffcc00Attacks land units.|r
 }
@@ -40358,7 +40370,7 @@ Causes this unit to attack <A00L,DataB1,%>% faster, but take <A00L,DataC1,%>% mo
 }
 
 STRING 6749
-// Units: uskm (Skeletal Mage), Ubertip (Tooltip - Extended)
+// Units: u00H (Skeletal Mage), Ubertip (Tooltip - Extended)
 {
 Skeletal mage. Has the Cannibalize ability.|n|n|cffffcc00Attacks land and air units.|r
 }
@@ -55742,7 +55754,7 @@ Basic attack unit. Has the Cannibalize ability.|n|n|cffffcc00Attacks land units.
 }
 
 STRING 9258
-// Units: earc (Archer), Ubertip (Tooltip - Extended)
+// Units: z420 (Archer), Ubertip (Tooltip - Extended)
 {
 Basic long-ranged attacker. Has the Shadow Meld ability.|n|n|cffffcc00Attacks land and air units.|r
 }
@@ -55754,13 +55766,13 @@ Used to select your heroes.
 }
 
 STRING 9260
-// Units: otau (Tauren), Ubertip (Tooltip - Extended)
+// Units: z223 (Tauren), Ubertip (Tooltip - Extended)
 {
 Mighty warrior. Has the Berserk and Pulverize abilities.|n|n|cffffcc00Attacks land units.|r
 }
 
 STRING 9261
-// Units: orai (Raider), Ubertip (Tooltip - Extended)
+// Units: z222 (Raider), Ubertip (Tooltip - Extended)
 {
 Highly mobile wolf rider. Has the Beserk and Pillage abilities.|n|n|cffffcc00Attacks land units.|r
 }
@@ -55772,7 +55784,7 @@ Anti-magic Shell - [|cfffcc00Level 4|r]
 }
 
 STRING 9263
-// Units: esen (Huntress), Ubertip (Tooltip - Extended)
+// Units: z421 (Huntress), Ubertip (Tooltip - Extended)
 {
 Agile short-ranged warrior. Has the Shadow Meld ability. |n|n|cffffcc00Attacks land units.|r
 }
@@ -55784,7 +55796,7 @@ Flying heavy assault creature with splashing attack and Freezing Breath
 }
 
 STRING 9265
-// Units: otbk (Berserker), Ubertip (Tooltip - Extended)
+// Units: z221 (Berserker), Ubertip (Tooltip - Extended)
 {
 Versatile spear-thrower, effective against air units. Has the Berserk ability, which allows it to deal more damage, but take more damage when attacked.|n|n|cffffcc00Attacks land and air units.|r 
 }
@@ -55808,7 +55820,7 @@ Basic observation tower. Has no attack, but can be upgraded into a Frost Tower o
 }
 
 STRING 9269
-// Units: u00H (Skeletal Mage), Ubertip (Tooltip - Extended)
+// Units: z322 (Skeletal Mage), Ubertip (Tooltip - Extended)
 {
 Skeletal mage. Has the Cannibalize ability.|n|n|cffffcc00Attacks land and air units.|r
 }
@@ -55820,7 +55832,7 @@ Powerful mounted warrior with the Bash ability.|n|n|cffffcc00Attacks land units.
 }
 
 STRING 9271
-// Units: uabo (Abomination), Ubertip (Tooltip - Extended)
+// Units: u00N (Abomination), Ubertip (Tooltip - Extended)
 {
 Heavy melee unit. Has the Cannibalize ability. |n|n|cffffcc00Attacks land units.|r
 }
@@ -57987,7 +57999,7 @@ Train |cffffcc00D|rark Knight
 }
 
 STRING 9620
-// Units: z223 (Tauren), Ubertip (Tooltip - Extended)
+// Units: z224 (Dark Tauren), Ubertip (Tooltip - Extended)
 {
 Mighty warrior. Has the Berserk and Pulverize abilities.|n|n|cffffcc00Attacks land units.|r
 }
@@ -63685,7 +63697,7 @@ Z
 }
 
 STRING 10517
-// Units: u00N (Abomination), Ubertip (Tooltip - Extended)
+// Units: z323 (Abomination), Ubertip (Tooltip - Extended)
 {
 Heavy melee unit. Has the Cannibalize ability. |n|n|cffffcc00Attacks land units.|r
 }
@@ -76526,7 +76538,7 @@ Send a wisp that explodes to deal <A0E3,DataA3> damage, drain <A0E3,DataA3> mana
 }
 
 STRING 12612
-// Units: ohun (Headhunter), Ubertip (Tooltip - Extended)
+// Units: z220 (Headhunter), Ubertip (Tooltip - Extended)
 {
 Basic Ranged attacker. |n|n|cffffcc00Attacks land and air units.|r 
 }

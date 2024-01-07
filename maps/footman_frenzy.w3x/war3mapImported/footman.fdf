@@ -1,0 +1,31 @@
+Frame "BACKDROP" "EventTrackerBackdrop" {
+    DecorateFileNames,
+    BackdropTileBackground,
+    BackdropBackground  "MultiboardBackground",
+    BackdropCornerFlags "UL|UR|BL|BR|T|L|B|R",
+    BackdropCornerSize          0.0125,
+    BackdropBackgroundSize      0.128,
+    BackdropBackgroundInsets    0.005 0.005 0.005 0.005,
+    BackdropEdgeFile  "MultiboardBorder",
+    BackdropBlendAll,
+}
+
+Frame "TEXT" "EventTrackerTitleText" {
+    DecorateFileNames,
+    FrameFont "MasterFont", 0.011,"",
+    LayerStyle "IGNORETRACKEVENTS", 
+    FontJustificationH JUSTIFYLEFT,
+    FontJustificationV JUSTIFYTOP,
+	Width  0.11,
+	Height 0.03,
+}
+
+Frame "TEXT" "EventTrackerTimerText" {
+    DecorateFileNames,
+    FrameFont "MasterFont", 0.011,"",
+    LayerStyle "IGNORETRACKEVENTS", 
+    FontJustificationH JUSTIFYRIGHT,
+    FontJustificationV JUSTIFYTOP,
+	Width  0.044,
+	Height 0.03,
+}
