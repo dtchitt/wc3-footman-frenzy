@@ -24,6 +24,7 @@ export class InitializationState implements TransitionableGameState {
 		//Anti Maphack stuff - prolly wont bother, can be done in a more simple and effective way
 		//Hex Color vars, doulbe check against what i have
 		//Minimap correct??!??!?!? - Move camera bounds to cut off extra terrain
+		//Anti team kill
 
 		//VERSION check trigger?? Basically this seems to be for tournaments and wc3 autohosting
 		//
