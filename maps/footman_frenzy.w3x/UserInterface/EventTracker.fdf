@@ -10,22 +10,12 @@ Frame "BACKDROP" "EventTrackerBackdrop" {
     BackdropBlendAll,
 }
 
-Frame "TEXT" "EventTrackerTitleText" {
+Frame "TEXT" "EventTrackerText" {
     DecorateFileNames,
     FrameFont "MasterFont", 0.011,"",
     LayerStyle "IGNORETRACKEVENTS", 
     FontJustificationH JUSTIFYLEFT,
-    FontJustificationV JUSTIFYTOP,
+    FontJustificationV JUSTIFYCENTER,
 	Width  0.11,
-	Height 0.03,
-}
-
-Frame "TEXT" "EventTrackerTimerText" {
-    DecorateFileNames,
-    FrameFont "MasterFont", 0.011,"",
-    LayerStyle "IGNORETRACKEVENTS", 
-    FontJustificationH JUSTIFYRIGHT,
-    FontJustificationV JUSTIFYTOP,
-	Width  0.044,
-	Height 0.03,
+	Height 0.012,
 }

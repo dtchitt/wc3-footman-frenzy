@@ -1,0 +1,187 @@
+IncludeFile "UI\FrameDef\UI\EscMenuTemplates.fdf",
+IncludeFile "UI\FrameDef\UI\QuestDialog.fdf",
+
+Frame "POPUPMENU" "PopupMenuTemplate" {
+    Width 0.13,
+    Height 0.03,
+    PopupButtonInset 0.01,
+
+    ControlBackdrop "PopupMenuTemplateBackdropTemplate",
+    Frame "BACKDROP" "PopupMenuTemplateBackdropTemplate" INHERITS "EscMenuButtonBackdropTemplate" {
+    }
+
+    ControlDisabledBackdrop "PopupMenuTemplateDisabledBackdropTemplate",
+    Frame "BACKDROP" "PopupMenuTemplateDisabledBackdropTemplate" INHERITS "EscMenuButtonDisabledBackdropTemplate" {
+    }
+
+    PopupTitleFrame "PopupMenuTitleTemplate",
+    Frame "GLUETEXTBUTTON" "PopupMenuTitleTemplate" INHERITS WITHCHILDREN "EscMenuPopupMenuTitleTemplate" {
+    }
+
+    PopupArrowFrame "PopupMenuArrowTemplate",
+    Frame "BUTTON" "PopupMenuArrowTemplate" INHERITS WITHCHILDREN "EscMenuPopupMenuArrowTemplate" { 
+    }	
+}
+
+Frame "GLUECHECKBOX" "CheckBoxTemplate" {
+	Width 0.024,
+	Height 0.024,
+
+	ControlBackdrop "EscMenuCheckBoxBackdrop",
+	Frame "BACKDROP" "EscMenuCheckBoxBackdrop" {
+		DecorateFileNames,
+		BackdropBlendAll,
+		BackdropBackground  "EscMenuCheckBoxBackground",
+	}
+
+	ControlDisabledBackdrop "EscMenuDisabledCheckBoxBackdrop",
+	Frame "BACKDROP" "EscMenuDisabledCheckBoxBackdrop" {
+		DecorateFileNames,
+		BackdropBlendAll,
+		BackdropBackground  "EscMenuDisabledCheckBoxBackground",
+	}
+
+	ControlPushedBackdrop "EscMenuCheckBoxPushedBackdrop",
+	Frame "BACKDROP" "EscMenuCheckBoxPushedBackdrop" {
+		DecorateFileNames,
+		BackdropBlendAll,
+		BackdropBackground  "EscMenuCheckBoxPushedBackground",
+	}
+
+	CheckBoxCheckHighlight "EscMenuCheckHighlightTemplate",
+	Frame "HIGHLIGHT" "EscMenuCheckHighlightTemplate" {
+		DecorateFileNames,
+		HighlightType "FILETEXTURE",
+		HighlightAlphaFile "EscMenuCheckBoxCheckHighlight",
+		HighlightAlphaMode "BLEND",
+	}
+
+	CheckBoxDisabledCheckHighlight "EscMenuDisabledCheckHighlightTemplate",
+	Frame "HIGHLIGHT" "EscMenuDisabledCheckHighlightTemplate" {
+		DecorateFileNames,
+		HighlightType "FILETEXTURE",
+		HighlightAlphaFile "EscMenuDisabledCheckHighlight",
+		HighlightAlphaMode "BLEND",
+	}
+}
+
+Frame "TEXT" "ModeLabelTemplate" {
+	DecorateFileNames,
+	FrameFont "MasterFont", 0.012,"",
+	FontColor 1.0 0.8 0.0 1.0,
+	LayerStyle "IGNORETRACKEVENTS", 
+	FontJustificationH JUSTIFYLEFT,
+	FontJustificationV JUSTIFYMIDDLE,
+}
+
+Frame "BACKDROP" "ModeSelection" INHERITS "QuestButtonBaseTemplate" {
+    Width 0.28,
+    Height 0.31,
+	SetPoint CENTER, "ConsoleUI", CENTER, 0.0, 0.05,
+
+    Frame "TEXT" "ModeSelectionTitle" {
+		SetPoint TOP, "ModeSelection", TOP, 0, -0.01,
+		DecorateFileNames,
+		FrameFont "MasterFont", 0.025, "",
+		FontColor 0.051 0.4 0.816 1.0,
+		LayerStyle "IGNORETRACKEVENTS", 
+		FontJustificationH JUSTIFYLEFT,
+		FontJustificationV JUSTIFYMIDDLE,
+		Text "Footman Wars",
+	}
+
+	Frame "TEXT" "ModeSelectionSubtitle" {
+		SetPoint TOP,"ModeSelectionTitle",BOTTOM, 0, 0,
+		DecorateFileNames,
+		FrameFont "MasterFont", 0.015, "",
+		FontColor 0.816 0.467 0.051 1.0,
+		LayerStyle "IGNORETRACKEVENTS", 
+		FontJustificationH JUSTIFYLEFT,
+		FontJustificationV JUSTIFYMIDDLE,
+		Text "Game Settings",
+	}
+
+	Frame "FRAME" "ModeSelectionLabels" {
+		Width  0.08,
+		Height 0.1,
+		SetPoint TOPLEFT, "ModeSelection", TOPLEFT, 0.02, -0.068,
+
+		Frame "TEXT" "GameTypeLabel" INHERITS "ModeLabelTemplate" {
+			SetPoint TOPLEFT,"ModeSelectionLabels",TOPLEFT, 0, 0,
+			Text "Game Type"
+		}
+
+		Frame "TEXT" "HeroSetLabel" INHERITS "ModeLabelTemplate" {
+			SetPoint TOPLEFT,"ModeSelectionLabels",TOPLEFT, 0, -0.05,
+			Text "Hero Set"
+		}
+
+		Frame "TEXT" "HeroSelectionLabel" INHERITS "ModeLabelTemplate" {
+			SetPoint TOPLEFT,"ModeSelectionLabels",TOPLEFT, 0, -0.1,
+			Text "Hero Selection"
+		}
+
+		Frame "TEXT" "DuplicateHerosLabel" INHERITS "ModeLabelTemplate" {
+			SetPoint TOPLEFT,"ModeSelectionLabels",TOPLEFT, 0, -0.138,
+			Text "Allow Duplicate Heros?"
+		}
+
+		Frame "TEXT" "TransmuteHeroLabel" INHERITS "ModeLabelTemplate" {
+			SetPoint TOPLEFT,"ModeSelectionLabels",TOPLEFT, 0, -0.163,
+			Text "Allow Transmute Heros?"
+		}
+
+		Frame "TEXT" "PromodeLabel" INHERITS "ModeLabelTemplate" {
+			SetPoint TOPLEFT,"ModeSelectionLabels",TOPLEFT, 0, -0.188,
+			Text "Promode?"
+		}
+	}
+
+	Frame "FRAME" "PopupMenus" {
+		Width  0.14,
+		Height 0.1,
+		SetPoint TOP, "ModeSelection", TOP, 0.03, -0.06,
+
+		Frame "POPUPMENU" "GameTypePopup" INHERITS WITHCHILDREN "PopupMenuTemplate" {
+			SetPoint TOP, "PopupMenus", TOP, 0.0, 0.00,
+			PopupMenuFrame "GameTypePopupMenu",
+			Frame "MENU" "GameTypePopupMenu" INHERITS WITHCHILDREN "EscMenuPopupMenuMenuTemplate" {
+				MenuItem "Standard",			-2,
+				MenuItem "King of the Hill",	-2,
+			}
+		}
+
+		Frame "POPUPMENU" "HeroSetPopup" INHERITS WITHCHILDREN "PopupMenuTemplate" {
+			SetPoint TOP, "PopupMenus", TOP, 0.0, -0.05,
+			PopupMenuFrame "HeroSetPopupMenu",
+			Frame "MENU" "HeroSetPopupMenu" INHERITS WITHCHILDREN "EscMenuPopupMenuMenuTemplate" {
+				MenuItem "Footman Wars",		-2,
+				MenuItem "Warcraft 3 Heros",	-2,
+				MenuItem "Custom Heros",		-2,
+			}
+		}
+
+		Frame "POPUPMENU" "HeroSelectionPopup" INHERITS WITHCHILDREN "PopupMenuTemplate" {
+			SetPoint TOP, "PopupMenus", TOP, 0.0, -0.1,
+			PopupMenuFrame "HeroSelectionPopupMenu",
+			Frame "MENU" "HeroSelectionPopupMenu" INHERITS WITHCHILDREN "EscMenuPopupMenuMenuTemplate" {
+				MenuItem "Free Pick",		-2,
+				MenuItem "Free Pick Pool",	-2,
+				MenuItem "All Random",		-2,
+				MenuItem "Radom Same Team",	-2,
+			}
+		}
+
+		Frame "GLUECHECKBOX" "DuplicateHerosCheckbox" INHERITS WITHCHILDREN "CheckBoxTemplate" { 
+			SetPoint TOP, "PopupMenus", TOP, 0.0, -0.14,
+		}
+
+		Frame "GLUECHECKBOX" "TransmuteHerosCheckbox" INHERITS WITHCHILDREN "CheckBoxTemplate" { 
+			SetPoint TOP, "PopupMenus", TOP, 0.0, -0.165,
+		}
+
+		Frame "GLUECHECKBOX" "PromodeCheckbox" INHERITS WITHCHILDREN "CheckBoxTemplate" { 
+			SetPoint TOP, "PopupMenus", TOP, 0.0, -0.19,
+		}
+	}
+}
