@@ -1,11 +1,21 @@
 Game Type:
-Standard
-King of the Hill
+Standard (Normal footman game)
+King of the Hill (Goldmine in the middle to generate gold if captured)
 
-Allow Transmute Heros: Y/N
+Allow Transmute Heros: Y/N (disallow transmute ability heros)
 
-Promode: Y/N
+Promode: Y/N (not sure what all it does)
 
+Hero Set: 
+Footman Frenzy (Standard)
+Warcraft 3 Heros (Normal Warcraft 3 heros)
+Custom Heros (Players can build their own heros)
+
+Hero Selection:
+All Pick (All Players pick their heros)
+All Random (All Players get a random hero)
+Random Same Teams (All Teams recieve the same 3 heros)
+Random Pool (Random pool of 12 heros is selected)
 
 
 
