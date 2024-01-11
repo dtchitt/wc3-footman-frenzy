@@ -22,7 +22,7 @@ export class SpawnManager {
 	}
 
 	public updateSpawnForPlayer(data: SpawnData) {
-		this.removeSpawn(data.player);
+		this.removeSpawn(data.player.getHandle());
 		this.addSpawn(data);
 	}
 
@@ -36,21 +36,22 @@ export class SpawnManager {
 	}
 
 	private addSpawn(spawnData: SpawnData) {
-		const event: TimedEvent = this.eventManager.registerTimedEvent(spawnData.interval, () => {
+		const event: TimedEvent = this.eventManager.registerTimedEvent(spawnData.config.interval, () => {
 			if (event.getDuration() <= 1) {
 				this.spawnUnit(spawnData);
 			}
 		});
 
-		this.spawnEvent.set(spawnData.player, event);
+		this.spawnEvent.set(spawnData.player.getHandle(), event);
 	}
 
 	private spawnUnit(data: SpawnData) {
-		if (GetPlayerSlotState(data.player) != PLAYER_SLOT_STATE_PLAYING) return;
+		if (GetPlayerSlotState(data.player.getHandle()) != PLAYER_SLOT_STATE_PLAYING) return;
 		//TODO check if player is defeated, return if so
 
-		for (let i = 0; i < data.quantity; i++) {
-			CreateUnit(data.player, data.unit, data.x, data.y, 270.0);
+		for (let i = 0; i < data.config.quantity; i++) {
+			const unit: unit = CreateUnit(data.player.getHandle(), data.config.unit, data.x, data.y, 270.0);
+			data.player.addSpawn(unit);
 		}
 
 		this.updateSpawnForPlayer(data);

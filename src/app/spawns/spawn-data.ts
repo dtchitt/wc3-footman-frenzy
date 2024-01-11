@@ -1,8 +1,9 @@
+import { SpawnConfig } from 'src/config/unit-tiers';
+import { GamePlayer } from '../entity/player/game-player';
+
 export interface SpawnData {
-	player: player;
-	interval: number;
-	unit: number;
-	quantity: number;
+	player: GamePlayer;
 	x: number;
 	y: number;
+	config: SpawnConfig;
 }
